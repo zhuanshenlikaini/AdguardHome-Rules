@@ -2,71 +2,54 @@
 
 name: Update AdGuard Rules
 
-# 控制工作流触发的条件
 on:
   push:
     branches:
       - main # 如果你的主分支是 master，请改为 master
-  
-  # 允许你从 Actions 标签页手动运行此工作流
   workflow_dispatch:
-
-  # 定时任务：每6小时运行一次
-  # Cron 语法: '分钟 小时 日 月 周'
-  # '0 */6 * * *' 表示在每6小时的 0 分，即 0:00, 6:00, 12:00, 18:00 执行
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 */6 * * *'
 
 jobs:
   build-and-commit:
-    runs-on: ubuntu-latest # 使用最新的 Ubuntu 运行环境
+    runs-on: ubuntu-latest
 
     steps:
-      # 步骤1: 检出你的仓库代码
-      # 这样工作流才能访问你的 process_rules.py 文件
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 步骤2: 设置 Python 环境
-      # 指定要使用的 Python 版本
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10' # 你可以选择合适的 Python 版本
+          python-version: '3.10'
 
-      # 步骤3: 安装 Python 依赖
-      # 我们的脚本需要 'requests' 库来下载规则
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
-      # 步骤4: 运行规则处理脚本
-      # 这会生成或更新 adguard-rules.txt 文件
       - name: Run script to process rules
         run: python process_rules.py
 
-      # 步骤5: 提交并推送更改
       - name: Commit and push if changes
         run: |
-          # 配置 Git 用户信息
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           
-          # 检查是否有文件改动
-          # 如果 git status -s 没有输出，表示没有改动，脚本将退出
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit."
             exit 0
           fi
           
-          # 添加生成的规则文件到暂存区
-          git add adguard-rules.txt
+          # 将生成的黑名单和白名单文件都添加到暂存区
+          git add adguard-rules.txt White.txt
           
-          # 创建提交
-          # 动态生成提交信息，包含当前时间和规则总数
-          RULE_COUNT=$(grep -v -c '^!' adguard-rules.txt)
-          git commit -m "chore: 自动更新规则列表，共 ${RULE_COUNT} 条"
+          # 创建更详细的提交信息
+          BLOCK_COUNT=$(grep -v -c '^!' adguard-rules.txt || echo 0)
+          WHITE_COUNT=$(grep -v -c '^!' White.txt || echo 0)
+          git commit -m "chore: 自动更新规则列表
           
-          # 将更改推送到远程仓库
+          - 黑名单规则: ${BLOCK_COUNT} 条
+          - 白名单规则: ${WHITE_COUNT} 条"
+          
           git push
