@@ -3,10 +3,10 @@
 
 本项目通过 GitHub Actions 自动合并、去重多个来源的 AdGuard Home 规则，并排除白名单。
 
-**最后更新时间: 2025-09-30 22:55:38 (UTC+8)**
+**最后更新时间: 2025-09-30 23:07:27 (UTC+8)**
 
-- **最终黑名单规则数**: 232982
-- **最终白名单规则数**: 2406
+- **最终黑名单规则数**: 342818
+- **最终白名单规则数**: 6404
 
 ---
 
@@ -29,18 +29,36 @@ https://raw.githubusercontent.com/zhuanshenlikaini/AdguardHome-Rules/main/White.
 ## 规则来源
 
 ### 黑名单来源 (Blocklist Sources)
-- AdGuard Spyware
-- AdGuard Mobile
-- jiekouAD
-- anti-AD
-- Adblock-Plus-Rule
-- Menghuibanxian-Black
+- 秋风的规则
+- GitHub加速
+- 广告规则
+- DD自用
+- 消失DD
+- 大萌主
+- 逆向涉猎
+- 下个ID见
+- 那个谁520
+- 1hosts
+- 茯苓的广告规则
+- AdBlockDNSFilters1
+- AdBlockDNSFilters2
+- Ad-set-hosts
+- GOODBYEADS
+- 10007_auto
+- AWAvenue-Ads-Rule
+- Menghuibanxian
 - Custom Blocklist (本地)
 
 ### 白名单来源 (Whitelist Sources)
-- anti-AD-white
-- AdGuard Exceptions
-- Menghuibanxian-White
+- 茯苓允许列表  
+- 666         
+- 个人自用白名单
+- 冷漠白名单   
+- BlueSkyXN   
+- GOODBYEADS   
+- 冷漠白名单2   
+- 冷漠白名单3   
+- Menghuibanxian   
 - Custom Whitelist (本地)
 
 ---
