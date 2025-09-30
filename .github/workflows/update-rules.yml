@@ -2,15 +2,13 @@
 
 name: Update AdGuard Rules
 
-# ✨ 新增权限设置 ✨
-# 这一部分是解决 403 Forbidden 错误的关键
 permissions:
   contents: write
 
 on:
   push:
     branches:
-      - main # 如果你的主分支是 master，请改为 master
+      - main
   workflow_dispatch:
   schedule:
     - cron: '0 */6 * * *'
@@ -36,21 +34,24 @@ jobs:
       - name: Run script to process rules and update README
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python process_rules.py
+        # ✨ 修改：运行位于 documents 文件夹内的脚本
+        run: python documents/process_rules.py
 
       - name: Commit and push if changes
-        run: |
+        run: \vert{}
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           
+          # 检查是否有文件变动
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit."
             exit 0
           fi
           
+          # 添加所有可能变动的文件
           git add Black.txt White.txt README.md
           
-          BLOCK_COUNT=$(grep -v -c '^!' Black.txt || echo 0)
+          BLOCK_COUNT=$(grep -v -c '^!' Black.txt \vert{}\vert{} echo 0)
           WHITE_COUNT=$(grep -v -c '^!' White.txt || echo 0)
           git commit -m "chore: 自动更新规则列表
           
