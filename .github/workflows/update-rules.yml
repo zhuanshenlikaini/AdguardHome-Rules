@@ -34,7 +34,7 @@ jobs:
         run: python process_rules.py
 
       - name: Commit and push if changes
-        run: \vert{}
+        run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           
@@ -43,11 +43,11 @@ jobs:
             exit 0
           fi
           
-          # *** 已按要求修改: 添加新的文件名 ***
+          # *** 关键修复：这里必须使用新的文件名 ***
           git add Black.txt White.txt README.md
           
-          # *** 已按要求修改: 从新的文件名中统计规则数 ***
-          BLOCK_COUNT=$(grep -v -c '^!' Black.txt \vert{}\vert{} echo 0)
+          # *** 关键修复：从新的文件名中统计规则数 ***
+          BLOCK_COUNT=$(grep -v -c '^!' Black.txt || echo 0)
           WHITE_COUNT=$(grep -v -c '^!' White.txt || echo 0)
           git commit -m "chore: 自动更新规则列表
           
