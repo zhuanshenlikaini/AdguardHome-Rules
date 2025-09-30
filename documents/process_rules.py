@@ -14,21 +14,37 @@ root_dir = os.path.dirname(script_dir)
 
 # 1. 黑名单规则源 (网络)
 block_source_urls = {
-    "AdGuard Spyware": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_domains.txt",
-    "AdGuard Mobile": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt",
-    "jiekouAD": "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
-    "anti-AD": "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt",
-    "Adblock-Plus-Rule": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
-    # ... 其他规则 ...
-    "Menghuibanxian-Black": "https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/main/Black.txt"
+"秋风的规则":"https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+"GitHub加速":"https://raw.githubusercontent.com/521xueweihan/GitHub520/refs/heads/main/hosts",
+"广告规则":"https://raw.githubusercontent.com/huantian233/HT-AD/main/AD.txt",
+"DD自用":"https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt",
+"消失DD":"https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/dns.txt",
+"大萌主":"https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
+"逆向涉猎":"https://raw.githubusercontent.com/790953214/qy-Ads-Rule/main/black.txt",
+"下个ID见":"https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts",
+"那个谁520":"https://raw.githubusercontent.com/qq5460168/666/master/rules.txt",
+"1hosts":"https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt",
+"茯苓的广告规则":"https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt",
+"AdBlockDNSFilters1":"https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt",
+"AdBlockDNSFilters2":"https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt",
+"Ad-set-hosts":"https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard",
+"GOODBYEADS":"https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt",
+"10007_auto":"https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward",
+"AWAvenue-Ads-Rule":"https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+"Menghuibanxian":"https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Black.txt"
 }
 
 # 2. 白名单规则源 (网络)
 white_source_urls = {
-    "anti-AD-white": "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-white-list.txt",
-    "AdGuard Exceptions": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/exception_domains.txt",
-    # ... 其他规则 ...
-    "Menghuibanxian-White": "https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/main/White.txt"
+    "茯苓允许列表  ": "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt",
+    "666         ": "https://raw.githubusercontent.com/qq5460168/666/master/allow.txt",
+    "个人自用白名单": "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt",
+    "冷漠白名单   ": "https://file-git.trli.club/file-hosts/allow/Domains",
+    "BlueSkyXN   ": "https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt",
+    "GOODBYEADS   ": "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/allow.txt",
+    "冷漠白名单2   ": "https://github.com/Potterli20/file/releases/download/github-hosts/allow.txt",
+    "冷漠白名单3   ": "https://github.com/Potterli20/file/releases/download/github-hosts/ad-edge-hosts.txt",
+    "Menghuibanxian   ": "https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/White.txt"
 }
 
 # ✨ 新增：自定义本地规则文件名 (需要与脚本放在同一个文件夹内)
