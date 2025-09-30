@@ -34,11 +34,10 @@ jobs:
       - name: Run script to process rules and update README
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
-        # ✨ 修改：运行位于 documents 文件夹内的脚本
         run: python documents/process_rules.py
 
       - name: Commit and push if changes
-        run: \vert{}
+        run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           
@@ -48,14 +47,15 @@ jobs:
             exit 0
           fi
           
-          # 添加所有可能变动的文件
           git add Black.txt White.txt README.md
           
-          BLOCK_COUNT=$(grep -v -c '^!' Black.txt \vert{}\vert{} echo 0)
+          BLOCK_COUNT=$(grep -v -c '^!' Black.txt || echo 0)
           WHITE_COUNT=$(grep -v -c '^!' White.txt || echo 0)
-          git commit -m "chore: 自动更新规则列表
-          
-          - 黑名单规则: ${BLOCK_COUNT} 条
-          - 白名单规则: ${WHITE_COUNT} 条"
+
+          # ✨ 语法修正 ✨
+          # 将多行 commit 消息拆分为多个 -m 参数，以避免 YAML 解析错误
+          git commit -m "chore: 自动更新规则列表" \
+                     -m "黑名单规则: ${BLOCK_COUNT} 条" \
+                     -m "白名单规则: ${WHITE_COUNT} 条"
           
           git push
