@@ -94,27 +94,6 @@ def process_urls_to_dict(urls: list) -> dict:
         time.sleep(1)
     return rules_dict
     
-def write_rules_to_file(filename: str, rules_dict: dict, title: str, description: str):
-    """将规则字典写入文件，并添加来源注释"""
-    print(f"\n正在将规则写入到 {filename}...")
-    sorted_rules = sorted(rules_dict.keys())
-    try:
-        with open(filename, 'w', encoding='utf-8') as f:
-            now_cst = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
-            f.write(f"! Title: {title}\n")
-            f.write(f"! Description: {description}\n")
-            f.write(f"! Version: {now_cst.strftime('%Y%m%d%H%M%S')}\n")
-            f.write(f"! Last Updated: {now_cst.strftime('%Y-%m-%d %H:%M:%S CST')}\n")
-            f.write(f"! Total Rules: {len(sorted_rules)}\n")
-            f.write("!\n")
-            
-            for rule in sorted_rules:
-                source = rules_dict[rule]
-                f.write(f"{rule} # From: {source}\n")
-        print(f"文件 {filename} 写入成功！")
-    except IOError as e:
-        print(f"写入文件失败: {filename}, 错误: {e}")
-
 def update_readme(block_rules_dict: dict, white_rules_dict: dict):
     """生成并更新 README.md 文件"""
     print(f"\n正在更新 {readme_file}...")
@@ -123,11 +102,12 @@ def update_readme(block_rules_dict: dict, white_rules_dict: dict):
     
     now_cst = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
     
-    # 构建黑名单来源列表的Markdown文本
+    # 构建黑名单和白名单来源的Markdown文本
     block_sources_md = "\n".join([f"- `{url}`" for url in block_source_urls])
-    
-    # 构建白名单来源列表的Markdown文本
     white_sources_md = "\n".join([f"- `{url}`" for url in white_source_urls])
+
+    # === 关键修复：将 Markdown 代码块的符号定义为变量 ===
+    code_fence = "```"
 
     readme_content = f"""# 自动更新的 AdGuard Home 规则
 
@@ -145,3 +125,86 @@ def update_readme(block_rules_dict: dict, white_rules_dict: dict):
 ### 拦截规则 (Blocklist)
 
 适用于 AdGuard Home 的 DNS 封锁清单。
+
+{code_fence}
+{raw_url_base}/{block_output_file}
+{code_fence}
+
+### 允许规则 (Whitelist)
+
+如果您需要，可以将其添加到 AdGuard Home 的 DNS 允许列表。
+
+{code_fence}
+{raw_url_base}/{white_output_file}
+{code_fence}
+
+---
+
+## 规则来源
+
+### 黑名单来源 (Blocklist Sources)
+
+{block_sources_md}
+
+### 白名单来源 (Whitelist Sources)
+
+{white_sources_md}
+
+---
+
+---
+
+由 [GitHub Actions](https://github.com/features/actions) 自动构建。
+"""
+    try:
+        with open(readme_file, 'w', encoding='utf-8') as f:
+            f.write(readme_content)
+        print(f"{readme_file} 更新成功！")
+    except IOError as e:
+        print(f"写入 {readme_file} 失败: {e}")
+
+def main():
+    print("--- 开始处理白名单 ---")
+    white_rules_dict = process_urls_to_dict(white_source_urls)
+    
+    print("\n--- 开始处理黑名单 ---")
+    block_rules_dict = process_urls_to_dict(block_source_urls)
+    
+    print("\n--- 最终处理 ---")
+    initial_block_count = len(block_rules_dict)
+    print(f"合并后黑名单共: {initial_block_count} 条")
+    print(f"合并后白名单共: {len(white_rules_dict)} 条")
+    
+    # 从黑名单中移除白名单中的域名
+    # 创建一个新的字典，只包含不在白名单中的键
+    final_block_rules_dict = {
+        rule: source 
+        for rule, source in block_rules_dict.items() 
+        if rule not in white_rules_dict
+    }
+
+    final_block_count = len(final_block_rules_dict)
+    removed_count = initial_block_count - final_block_count
+    
+    print(f"从黑名单中移除了 {removed_count} 条白名单规则。")
+    print(f"最终生效黑名单共: {final_block_count} 条。")
+    
+    # 写入文件
+    write_rules_to_file(
+        block_output_file, 
+        final_block_rules_dict, 
+        "AdGuard Custom Blocklist", 
+        "自动合并、去重并排除白名单的广告拦截规则"
+    )
+    write_rules_to_file(
+        white_output_file, 
+        white_rules_dict, 
+        "AdGuard Custom Whitelist", 
+        "自动合并和去重的白名单规则"
+    )
+
+    # 更新 README.md
+    update_readme(final_block_rules_dict, white_rules_dict)
+
+if __name__ == "__main__":
+    main()
