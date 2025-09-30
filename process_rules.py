@@ -1,221 +1,257 @@
-# process_rules.py
-
+import os
+import re
 import requests
-import datetime
 import time
+import json
+import datetime
 import os
 
-# --- 配置区 ---
-
-# 1. 黑名单规则源
-block_source_urls = [
-    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_domains.txt",
-    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt",
-    "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
-    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt",
-    "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
-    "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt",
-    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt",
-    "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt",
-    "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt",
-    "https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard",
-    "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt",
-    "https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward",
-    "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
-    "https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/main/Black.txt"
-]
-
-# 2. 白名单规则源
-white_source_urls = [
-    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-white-list.txt",
-    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/exception_domains.txt",
-    "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/allow.txt",
-    "https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt",
-    "https://raw.githubusercontent.com/Potterli20/file/main/allow.txt",
-    "https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/main/White.txt"
-]
-
-# 3. 输出文件路径 (*** 已按要求修改 ***)
-block_output_file = "Black.txt"
-white_output_file = "White.txt"
-readme_file = "README.md"
-
-# --- 脚本区 (无需修改) ---
-
-def download_file(url: str):
-    """下载指定URL的内容"""
-    try:
-        print(f"  正在下载: {url.split('/')[-1]}")
-        response = requests.get(url, timeout=60)
-        response.raise_for_status()
-        return response.text
-    except requests.exceptions.RequestException as e:
-        print(f"  下载失败: {url}, 错误: {e}")
-        return None
-
-def process_line(line: str) -> str:
-    """清洗单行规则，提取域名"""
-    line = line.strip()
-    if not line or line.startswith(('!', '#', '/', '[', '@')):
-        return ""
-    line = line.replace("||", "").replace("^", "").replace("@@", "")
-    if '$' in line:
-        line = line.split('$')[0]
-    if line.startswith(('*.')):
-        line = line[2:]
-    if line.startswith('.'):
-        line = line[1:]
-    if line.startswith(('0.0.0.0 ', '127.0.0.1 ')):
-        line = line.split(' ')[1]
-    if '.' not in line or ' ' in line or '<' in line:
-        return ""
-    if line in ["localhost", "127.0.0.1", "0.0.0.0"]:
-        return ""
-    return line.strip()
-
-def process_urls_to_dict(urls: list) -> dict:
-    """下载并处理URL列表，返回一个 {规则: 来源} 的字典"""
-    rules_dict = {}
+# 获取北京时间
+def get_beijing_time():
+    """获取北京时间"""
+    # 使用多个API源获取北京时间，增加可靠性
+    urls = [
+        "https://quan.suning.com/getSysTime.do",  # 优先使用HTTPS版本的苏宁API
+        "https://www.baidu.com",                 # 从响应头获取时间
+        "https://a.jd.com/js/union_ajax.js",     # 从响应头获取时间
+        "https://pages.github.com",              # 从响应头获取时间
+        "https://consumer.huawei.com",           # 从响应头获取时间
+        "https://www.mi.com",                    # 从响应头获取时间
+        "http://quan.suning.com/getSysTime.do"    # 备用：HTTP版本的苏宁API
+    ]
+    
     for url in urls:
-        content = download_file(url)
-        if content:
-            lines = content.splitlines()
-            count = 0
-            source_identifier = url.split('/')[2] 
-            for line in lines:
-                processed_line = process_line(line)
-                if processed_line and processed_line not in rules_dict:
-                    rules_dict[processed_line] = source_identifier
-                    count += 1
-            print(f"  从 {source_identifier} 添加了 {count} 条新规则。")
-        time.sleep(1)
-    return rules_dict
-    
-def write_rules_to_file(filename: str, rules_dict: dict, title: str, description: str):
-    """将规则字典写入文件，并添加来源注释"""
-    print(f"\n正在将规则写入到 {filename}...")
-    sorted_rules = sorted(rules_dict.keys())
-    try:
-        with open(filename, 'w', encoding='utf-8') as f:
-            now_cst = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
-            f.write(f"! Title: {title}\n")
-            f.write(f"! Description: {description}\n")
-            f.write(f"! Version: {now_cst.strftime('%Y%m%d%H%M%S')}\n")
-            f.write(f"! Last Updated: {now_cst.strftime('%Y-%m-%d %H:%M:%S CST')}\n")
-            f.write(f"! Total Rules: {len(sorted_rules)}\n")
-            f.write("!\n")
+        try:
+            # 设置较短的超时时间，避免长时间等待
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+            response = requests.get(url, timeout=3, headers=headers)
             
-            for rule in sorted_rules:
-                source = rules_dict[rule]
-                f.write(f"{rule} # From: {source}\n")
-        print(f"文件 {filename} 写入成功！")
-    except IOError as e:
-        print(f"写入文件失败: {filename}, 错误: {e}")
-
-def update_readme(block_rules_dict: dict, white_rules_dict: dict):
-    """生成并更新 README.md 文件"""
-    print(f"\n正在更新 {readme_file}...")
-    repo_name = os.environ.get("GITHUB_REPOSITORY", "your_username/your_repo")
-    raw_url_base = f"https://raw.githubusercontent.com/{repo_name}/main"
+            # 从响应头中获取时间
+            if 'Date' in response.headers:
+                date_str = response.headers['Date']
+                # 解析HTTP日期格式
+                gmt_time = datetime.datetime.strptime(date_str, '%a, %d %b %Y %H:%M:%S GMT')
+                # 转换为北京时间（GMT+8）
+                beijing_time = gmt_time + datetime.timedelta(hours=8)
+                return beijing_time.strftime("%Y-%m-%d %H:%M:%S")
+        except Exception as e:
+            # 出错时继续尝试下一个源
+            continue
     
-    now_cst = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
+    # 如果所有API都失败，回退到本地时间
+    print("获取北京时间失败，使用本地时间")
+    return datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+# 文件路径配置
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BLACKLIST_FILE = os.path.join(ROOT_DIR, "Black.txt")
+COLORFUL_FILE = os.path.join(ROOT_DIR, "scripts", "colorful.txt")
+WHITELIST_FILE = os.path.join(ROOT_DIR, "White.txt")
+
+# 黑名单源
+BLACKLIST_SOURCES = {
+    "秋风的规则          ": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+    "GitHub加速         ": "https://raw.githubusercontent.com/521xueweihan/GitHub520/refs/heads/main/hosts",
+    "广告规则            ": "https://raw.githubusercontent.com/huantian233/HT-AD/main/AD.txt",
+    "DD自用             ": "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt",
+    "消失DD             ": "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/dns.txt",
+    "大萌主             ": "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
+    "逆向涉猎            ": "https://raw.githubusercontent.com/790953214/qy-Ads-Rule/main/black.txt",
+    "下个ID见           ": "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts",
+    "那个谁520          ": "https://raw.githubusercontent.com/qq5460168/666/master/rules.txt",
+    "1hosts            ": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt",
+    "茯苓的广告规则      ": "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt",
+    "AdBlock DNS Filters1": "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt", 
+    "AdBlock DNS Filters2": "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt",
+    "Ad-set-hosts      ": "https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard",
+    "GOODBYEADS       ": "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt",
+    "10007_auto       ": "https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward",
+    "AWAvenue-Ads-Rule   ": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+    "Menghuibanxian       ": "https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Black.txt",
+    "立场不定的          ":  "https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Uncertain%20position.txt"
+}
+
+# 白名单源
+WHITELIST_SOURCES = {
+    "茯苓允许列表  ": "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt",
+    "666         ": "https://raw.githubusercontent.com/qq5460168/666/master/allow.txt",
+    "个人自用白名单": "https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt",
+    "冷漠白名单   ": "https://file-git.trli.club/file-hosts/allow/Domains",
+    "BlueSkyXN   ": "https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt",
+    "GOODBYEADS   ": "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/allow.txt",
+    "冷漠白名单2   ": "https://github.com/Potterli20/file/releases/download/github-hosts/allow.txt",
+    "冷漠白名单3   ": "https://github.com/Potterli20/file/releases/download/github-hosts/ad-edge-hosts.txt",
+    "Menghuibanxian   ": "https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/White.txt"
+}
+
+def remove_comments_and_blank_lines(rules):
+    """移除规则中的注释和空行"""
+    result = []
+    for line in rules:
+        # 去掉行首和行尾的空白字符
+        line = line.strip()
+        # 跳过空行和注释行
+        if not line or line.startswith("!") or line.startswith("#"):
+            continue
+        # 去掉行内的注释
+        line = re.sub(r"[!#].*$", "", line).strip()
+        if line:
+            result.append(line)
+    return result
+
+def extract_whitelist_from_blacklist(blacklist_rules):
+    """从黑名单规则中提取白名单规则"""
+    # 假设白名单规则在黑名单中以特定格式存在，例如以@@开头（AdGuard格式）
+    whitelist_rules = [rule for rule in blacklist_rules if rule.startswith("@@")]
+    # 过滤后的黑名单规则（移除白名单规则）
+    filtered_blacklist = [rule for rule in blacklist_rules if not rule.startswith("@@")]
+    return filtered_blacklist, whitelist_rules
+
+def deduplicate_rules(rules):
+    """移除重复的规则"""
+    # 使用集合去重并保持顺序
+    seen = set()
+    result = []
+    for rule in rules:
+        if rule not in seen:
+            seen.add(rule)
+            result.append(rule)
+    return result
+
+def download_blacklist_sources():
+    """下载所有黑名单源的规则"""
+    all_blacklist_rules = []
     
-    block_sources_md = "\n".join([f"- `{url}`" for url in block_source_urls])
-    white_sources_md = "\n".join([f"- `{url}`" for url in white_source_urls])
+    print(f"开始下载 {len(BLACKLIST_SOURCES)} 个黑名单源...")
     
-    code_fence = "```"
+    for name, url in BLACKLIST_SOURCES.items():
+        try:
+            print(f"正在下载 {name} ({url})...")
+            response = requests.get(url, timeout=30)  # 增加超时时间
+            response.raise_for_status()
+            
+            # 处理不同格式的规则文件
+            rules = response.text.split("\n")
+            # 移除注释和空行
+            cleaned_rules = remove_comments_and_blank_lines(rules)
+            
+            all_blacklist_rules.extend(cleaned_rules)
+            print(f"成功下载 {name}，获取到 {len(cleaned_rules)} 条规则")
+            
+            # 添加延迟以避免请求过于频繁
+            time.sleep(1)
+        except Exception as e:
+            print(f"下载 {name} 失败 ({url}): {e}")
+    
+    print(f"所有黑名单源下载完成，共获取到 {len(all_blacklist_rules)} 条规则")
+    return all_blacklist_rules
 
-    readme_content = f"""# 自动更新的 AdGuard Home 规则
-
-本项目通过 GitHub Actions 自动合并、去重多个来源的 AdGuard Home 规则，并排除白名单。
-
-**最后更新时间: {now_cst.strftime('%Y-%m-%d %H:%M:%S CST')}**
-
-- **最终黑名单规则数**: {len(block_rules_dict)}
-- **最终白名单规则数**: {len(white_rules_dict)}
-
----
-
-## 订阅链接
-
-### 拦截规则 (Blocklist)
-
-适用于 AdGuard Home 的 DNS 封锁清单。
-
-{code_fence}
-{raw_url_base}/{block_output_file}
-{code_fence}
-
-### 允许规则 (Whitelist)
-
-如果您需要，可以将其添加到 AdGuard Home 的 DNS 允许列表。
-
-{code_fence}
-{raw_url_base}/{white_output_file}
-{code_fence}
-
----
-
-## 规则来源
-
-### 黑名单来源 (Blocklist Sources)
-
-{block_sources_md}
-
-### 白名单来源 (Whitelist Sources)
-
-{white_sources_md}
-
----
-
-由 [GitHub Actions](https://github.com/features/actions) 自动构建。
-"""
-    try:
-        with open(readme_file, 'w', encoding='utf-8') as f:
-            f.write(readme_content)
-        print(f"{readme_file} 更新成功！")
-    except IOError as e:
-        print(f"写入 {readme_file} 失败: {e}")
+def download_whitelist_sources():
+    """下载所有白名单源的规则"""
+    all_whitelist_rules = []
+    
+    print(f"开始下载 {len(WHITELIST_SOURCES)} 个白名单源...")
+    
+    for name, url in WHITELIST_SOURCES.items():
+        try:
+            print(f"正在下载 {name} ({url})...")
+            response = requests.get(url, timeout=30)  # 增加超时时间
+            response.raise_for_status()
+            
+            # 处理不同格式的规则文件
+            rules = response.text.split("\n")
+            # 移除注释和空行
+            cleaned_rules = remove_comments_and_blank_lines(rules)
+            
+            all_whitelist_rules.extend(cleaned_rules)
+            print(f"成功下载 {name}，获取到 {len(cleaned_rules)} 条规则")
+            
+            # 添加延迟以避免请求过于频繁
+            time.sleep(1)
+        except Exception as e:
+            print(f"下载 {name} 失败 ({url}): {e}")
+    
+    print(f"所有白名单源下载完成，共获取到 {len(all_whitelist_rules)} 条规则")
+    return all_whitelist_rules
 
 def main():
-    """主执行函数"""
-    print("--- 开始处理白名单 ---")
-    white_rules_dict = process_urls_to_dict(white_source_urls)
+    print("开始处理AdGuardHome规则...")
     
-    print("\n--- 开始处理黑名单 ---")
-    block_rules_dict = process_urls_to_dict(block_source_urls)
+    # 获取当前北京时间，只获取一次，所有文件使用相同的时间戳
+    current_time = get_beijing_time()
     
-    print("\n--- 最终处理 ---")
-    initial_block_count = len(block_rules_dict)
-    print(f"合并后黑名单共: {initial_block_count} 条")
-    print(f"合并后白名单共: {len(white_rules_dict)} 条")
+    # 下载所有黑名单源
+    blacklist_rules = download_blacklist_sources()
     
-    final_block_rules_dict = {
-        rule: source 
-        for rule, source in block_rules_dict.items() 
-        if rule not in white_rules_dict
-    }
-
-    final_block_count = len(final_block_rules_dict)
-    removed_count = initial_block_count - final_block_count
+    # 从黑名单中提取白名单规则
+    filtered_blacklist, extracted_whitelist = extract_whitelist_from_blacklist(blacklist_rules)
+    print(f"从黑名单中提取的白名单规则数量: {len(extracted_whitelist)}")
+    print(f"过滤后的黑名单规则数量: {len(filtered_blacklist)}")
     
-    print(f"从黑名单中移除了 {removed_count} 条白名单规则。")
-    print(f"最终生效黑名单共: {final_block_count} 条。")
+    # 黑名单去重
+    deduplicated_blacklist = deduplicate_rules(filtered_blacklist)
+    print(f"去重后的黑名单规则数量: {len(deduplicated_blacklist)}")
     
-    write_rules_to_file(
-        block_output_file, 
-        final_block_rules_dict, 
-        "AdGuard Custom Blocklist", 
-        "自动合并、去重并排除白名单的广告拦截规则"
-    )
-    write_rules_to_file(
-        white_output_file, 
-        white_rules_dict, 
-        "AdGuard Custom Whitelist", 
-        "自动合并和去重的白名单规则"
-    )
+    # 使用之前获取的时间戳
     
-    update_readme(final_block_rules_dict, white_rules_dict)
+    # 保存处理后的黑名单
+    with open(BLACKLIST_FILE, "w", encoding="utf-8") as f:
+        # 按照用户要求的格式添加文件头部
+        f.write(f"# 更新时间: {current_time}\n")
+        f.write(f"# 黑名单规则数：{len(deduplicated_blacklist)}\n")
+        f.write(f"# 作者名称: zhuanshenlikaini\n")
+        f.write(f"# 作者主页:https://github.com/zhuanshenlikaini/AdguardHome-Rules\n")
+        f.write("\n")
+        
+        # 添加规则内容并过滤掉以[开头且以]结尾的行
+        for rule in deduplicated_blacklist:
+            if not (rule.startswith('[') and rule.endswith(']')):
+                f.write(f"{rule}\n")
+    print(f"已保存处理后的黑名单到 {BLACKLIST_FILE}")
+    
+    # 使用之前获取的时间戳
+    
+    # 保存提取的白名单到colorful.txt
+    with open(COLORFUL_FILE, "w", encoding="utf-8") as f:
+        # 按照用户要求的格式添加文件头部
+        f.write(f"# 更新时间: {current_time}\n")
+        f.write(f"# 提取的规则数：{len(extracted_whitelist)}\n")
+        f.write("\n")
+        
+        # 添加规则内容
+        for rule in extracted_whitelist:
+            f.write(f"{rule}\n")
+    print(f"已保存提取的白名单到 {COLORFUL_FILE}")
+    
+    # 下载白名单源
+    downloaded_whitelist = download_whitelist_sources()
+    print(f"下载的白名单规则数量: {len(downloaded_whitelist)}")
+    
+    # 合并提取的白名单和下载的白名单
+    merged_whitelist = extracted_whitelist + downloaded_whitelist
+    
+    # 去重
+    deduplicated_whitelist = deduplicate_rules(merged_whitelist)
+    print(f"合并去重后的白名单规则数量: {len(deduplicated_whitelist)}")
+    
+    # 保存最终的白名单
+    # 使用之前获取的时间戳
+    
+    with open(WHITELIST_FILE, "w", encoding="utf-8") as f:
+        # 按照用户要求的格式添加文件头部
+        f.write(f"# 更新时间: {current_time}\n")
+        f.write(f"# 白名单规则数：{len(deduplicated_whitelist)}\n")
+        f.write(f"# 作者名称: zhuanshenlikaini\n")
+        f.write(f"# 作者主页:https://github.com/zhuanshenlikaini/AdguardHome-Rules\n")
+        f.write("\n")
+        
+        # 添加规则内容并过滤掉以[开头且以]结尾的行
+        for rule in deduplicated_whitelist:
+            if not (rule.startswith('[') and rule.endswith(']')):
+                f.write(f"{rule}\n")
+    print(f"已保存最终的白名单到 {WHITELIST_FILE}")
+    
+    print("AdGuardHome规则处理完成！")
 
 if __name__ == "__main__":
     main()
