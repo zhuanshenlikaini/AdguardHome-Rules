@@ -1,32 +1,142 @@
 ! Title: AdGuard Custom Whitelist
-! Description: 自动合并和去重的白名单规则
+! Description: 自动合并的白名单规则
 ! Author: zhuanshenlikaini
-! Version: 20250930224549
-! Last Updated: 2025-09-30 22:45:49 (UTC+8)
-! Total Rules: 1524
+! Version: 20250930225538
+! Last Updated: 2025-09-30 22:55:38 (UTC+8)
+! Total Rules: 2406
 !
-0.client-channel.google.com # From: anudeepND-whitelist
+*-cdn-tos.bytegeckoext.com # From: Custom Whitelist
+*-cdnfile*pcdn.msstatic.com # From: Custom Whitelist
+*-fileserverpcdn.cdn.huya # From: Custom Whitelist
+*-luckycat.byteimg.com # From: Custom Whitelist
+*-luckycatopen.byteimg.com # From: Custom Whitelist
+*-normal-lq.zijieapi.com # From: Custom Whitelist
+*-novelapp.fqnovelvod.com # From: Custom Whitelist
+*-open.douyin.com # From: Custom Whitelist
+*-pitaya-tos.pstatp.com # From: Custom Whitelist
+*-pitaya.bytetos.com # From: Custom Whitelist
+*-reading.fqnovelstatic.com # From: Custom Whitelist
+*0kkkkkt.com # From: Custom Whitelist
+*dns.weixin.qq.* # From: Custom Whitelist
+000aaap2023.com # From: Custom Whitelist
+002st.top # From: Custom Whitelist
+004999.xyz # From: Custom Whitelist
+005www11w.top # From: Custom Whitelist
+020kqy.com # From: Custom Whitelist
+02539717.com # From: Custom Whitelist
+031i12oe.shop # From: Custom Whitelist
+031i12oe.xyz # From: Custom Whitelist
+0324lab.techdaze.icu # From: Custom Whitelist
+0324play.sparkifyu.icu # From: Custom Whitelist
 03t0eiet.sched.sma-dk.tdnsstic1.cn.cjt.cdn.chinaidcnet.com # From: Menghuibanxian-White
 03t0eiet.sched.sma-dk.tdnsstic1.cn.cjt.jsq.ho-wan.cn # From: Menghuibanxian-White
+058www11w.top # From: Custom Whitelist
+087www2.cc # From: Custom Whitelist
 0m1feta8.sslego.tcloudscdn.com # From: Menghuibanxian-White
+106.3.18.4 # From: Custom Whitelist
+106.38.236.63 # From: Custom Whitelist
+110556.xyz # From: Custom Whitelist
+1233azpupg05.com # From: Custom Whitelist
 123pan.com # From: Menghuibanxian-White
 125-45-237-175.d.cjjd09.com # From: Menghuibanxian-White
 126.net # From: Menghuibanxian-White
+129.227.17.142 # From: Custom Whitelist
+129.227.17.145 # From: Custom Whitelist
+129.227.29.163 # From: Custom Whitelist
+129.227.29.192 # From: Custom Whitelist
+13.213.183.160 # From: Custom Whitelist
+13.214.52.63 # From: Custom Whitelist
+142.251.43.10 # From: Custom Whitelist
 163.com # From: Menghuibanxian-White
+177638.com # From: Custom Whitelist
+17c122.com # From: Custom Whitelist
+17c123.com # From: Custom Whitelist
+17c584.com # From: Custom Whitelist
+17c710.com # From: Custom Whitelist
+17c939.com # From: Custom Whitelist
+180rgwee.com # From: Custom Whitelist
+199221.top # From: Custom Whitelist
+1cecn.icu # From: Custom Whitelist
 1dot1dot1dot1.cloudflare-dns.com # From: Menghuibanxian-White
-1drv.com # From: anudeepND-whitelist
-2.android.pool.ntp.org # From: anudeepND-whitelist
+1f8b7.zk89u6m.top # From: Custom Whitelist
+200kp.vip # From: Custom Whitelist
 2012portal.blogspot.com # From: Menghuibanxian-White
 2025.ip138.com # From: Menghuibanxian-White
+2034kp.vip # From: Custom Whitelist
+216.239.35.0/24 # From: Custom Whitelist
+2290059.xyz # From: Custom Whitelist
+2634273f48e9.com # From: Custom Whitelist
+26d62.ek33y6u.top # From: Custom Whitelist
+273343.com # From: Custom Whitelist
+2bef9.g2tr92m.top # From: Custom Whitelist
+2lc8.vip # From: Custom Whitelist
+2tsfdcp.com # From: Custom Whitelist
+31xx4325a.cc # From: Custom Whitelist
+32n.icu # From: Custom Whitelist
+3333333333333.xyz # From: Custom Whitelist
+3377539.app # From: Custom Whitelist
+33slthiy.vip # From: Custom Whitelist
+35072.net # From: Custom Whitelist
+35609731.xyz # From: Custom Whitelist
 360.cn # From: Menghuibanxian-White
 360safe.com # From: Menghuibanxian-White
+365dmp.com # From: Custom Whitelist
+38ljkoi.xyz # From: Custom Whitelist
 3g.ali213.net # From: Menghuibanxian-White
+3nnc0at.xyz # From: Custom Whitelist
+3z5m.live # From: Custom Whitelist
+44444444444.xyz # From: Custom Whitelist
 47fcc754.ipip.net.cname.yunduns.com # From: Menghuibanxian-White
+495qp188.com # From: Custom Whitelist
+49666664.com # From: Custom Whitelist
 4gmqdboy.sslego.tcloudscdn.com # From: Menghuibanxian-White
 4rbs0xjhkeexzfzsk5qxhypr11swqxpr.yundunwaf1.com # From: Menghuibanxian-White
+5084c-398.rgv7x1hsjcsz.vip # From: Custom Whitelist
+52.77.59.64 # From: Custom Whitelist
+52gao393.cc # From: Custom Whitelist
+52gao4208.cc # From: Custom Whitelist
+52qqmxd.com # From: Custom Whitelist
+549htbet.com # From: Custom Whitelist
+552aaa.us # From: Custom Whitelist
+55555555555.online # From: Custom Whitelist
+58.242.130.102 # From: Custom Whitelist
+5h3s.live # From: Custom Whitelist
+5w8eho.com # From: Custom Whitelist
 6-c-0003.c-msedge.net # From: Menghuibanxian-White
+61365f24-814.rgv7x1hsjcsz.vip # From: Custom Whitelist
+626772.com # From: Custom Whitelist
+63797b.com # From: Custom Whitelist
+65564535.com # From: Custom Whitelist
+668in.vip # From: Custom Whitelist
+701110.xyz # From: Custom Whitelist
+71507.net # From: Custom Whitelist
+737qq.pw # From: Custom Whitelist
+758758.xyz # From: Custom Whitelist
+77img.fhgjds.com # From: Custom Whitelist
+77img.plxao.com # From: Custom Whitelist
 7jy3csqx.sslego.tcloudscdn.com # From: Menghuibanxian-White
+7x8qwer.top # From: Custom Whitelist
+82098999.com # From: Custom Whitelist
+83082308.com # From: Custom Whitelist
+8356654.cc # From: Custom Whitelist
+8356792.cc # From: Custom Whitelist
+8358137.cc # From: Custom Whitelist
+8358211.cc # From: Custom Whitelist
+84652.net # From: Custom Whitelist
+85795.today # From: Custom Whitelist
+8916a.xyz # From: Custom Whitelist
+89doc.com # From: Custom Whitelist
+8kkcny.click # From: Custom Whitelist
 8pipd2db.sslego.tcloudscdn.com # From: Menghuibanxian-White
+91037.icu # From: Custom Whitelist
+91204.icu # From: Custom Whitelist
+9129yjtp.com # From: Custom Whitelist
+914-991.icu # From: Custom Whitelist
+91c379.top # From: Custom Whitelist
+91ymdl.site # From: Custom Whitelist
+922-992.icu # From: Custom Whitelist
+9983x.com:8055 # From: Custom Whitelist
+9dg6a.xyz # From: Custom Whitelist
 a-0001.a-msedge.net # From: Menghuibanxian-White
 a-msedge.net # From: Menghuibanxian-White
 a.app.qq.com # From: Menghuibanxian-White
@@ -34,13 +144,25 @@ a.kwimgs.com # From: Menghuibanxian-White
 a.market.xiaomi.com # From: Menghuibanxian-White
 a.myapp.com # From: Menghuibanxian-White
 a.nel.cloudflare.com # From: Menghuibanxian-White
+a.nfewi989.com # From: Custom Whitelist
 a.w.bilicdn1.com # From: Menghuibanxian-White
+a000p.icu # From: Custom Whitelist
 a1.alicdn.com # From: Menghuibanxian-White
 a1843.g1.akamai.net # From: Menghuibanxian-White
+a21l.top # From: Custom Whitelist
+a48699053.top # From: Custom Whitelist
+a50xf.com # From: Custom Whitelist
+a5u2s.top # From: Custom Whitelist
 a65wda3h.sched.sma.tdnsstic1.cn.cjt.cdn.chinaidcnet.com # From: Menghuibanxian-White
 a65wda3h.sched.sma.tdnsstic1.cn.cjt.jsq.ho-wan.cn # From: Menghuibanxian-White
+aaid.uyunad.com # From: Custom Whitelist
 aapl-edge0.qtlcdn.com # From: Menghuibanxian-White
+abtest*-misc-hl.zijieapi.com # From: Custom Whitelist
+abtest*-misc-lq.zijieapi.com # From: Custom Whitelist
+abtest*-misc.zijieapi.com # From: Custom Whitelist
 abtest-ch.snssdk.com # From: Menghuibanxian-White
+abtest.openspeech.cn # From: Custom Whitelist
+abtestvm.bytedance.com # From: Custom Whitelist
 access-open.quark.cn # From: Menghuibanxian-White
 access.d.yximgs.com # From: Menghuibanxian-White
 access.open.uc.cn # From: Menghuibanxian-White
@@ -50,32 +172,89 @@ accessxmd.speech.ai.xiaomi.com # From: Menghuibanxian-White
 account.migc.g.mi.com # From: Menghuibanxian-White
 account.xiaomi.com # From: Menghuibanxian-White
 accounts.google.com # From: Menghuibanxian-White
+ack.tuisong.baidu.com # From: Custom Whitelist
 acs.m.taobao.com # From: Menghuibanxian-White
 acs.youku.com # From: Menghuibanxian-White
-acs4baichuan.m.taobao.com # From: Menghuibanxian-White
+acs4baichuan.m.taobao.com # From: Custom Whitelist
 acstatic-dun.126.net # From: Menghuibanxian-White
 act-api.cloud.tencent.com # From: Menghuibanxian-White
 act-webstatic.hoyoverse.com # From: Menghuibanxian-White
 act.hoyoverse.com # From: Menghuibanxian-White
 act.vip.iqiyi.com # From: Menghuibanxian-White
+actfile.cdn.pandora.xiaomi.com # From: Custom Whitelist
 activate.bitsum.com # From: Menghuibanxian-White
 activity-cdo.heytapimage.com # From: Menghuibanxian-White
+activity.baidu.com # From: Custom Whitelist
 activity.hdslb.com # From: Menghuibanxian-White
 activity.windows.com # From: Menghuibanxian-White
+ad*kwai.com # From: Custom Whitelist
+ad-log-upload.mihoyo.com # From: Custom Whitelist
+ad.10010.comimportant # From: Custom Whitelist
+ad.a.yximgs.com # From: Custom Whitelist
+ad.admin.10010.com # From: Custom Whitelist
+ad.api.moji.com # From: Custom Whitelist
+ad.baihemob.com # From: Custom Whitelist
+ad.cj.sina.cn # From: Custom Whitelist
+ad.huazirc.com # From: Custom Whitelist
+ad.lovefree.cc # From: Custom Whitelist
+ad.mcloud.139.com # From: Custom Whitelist
+ad.shunchangzhixing.com # From: Custom Whitelist
+ad.us.sinaimg.cn # From: Custom Whitelist
+ad.video.yximgs.com # From: Custom Whitelist
+ada.baidu.com # From: Custom Whitelist
+adash-emas.cn-hangzhou.aliyuncs.com # From: Custom Whitelist
+adashx.m.taobao.com # From: Custom Whitelist
+adashxgc.ut.taobao.com # From: Custom Whitelist
+adbehavior.wsa.ximalaya.com # From: Custom Whitelist
+adbehavior.ximalaya.com # From: Custom Whitelist
+adbehaviorhera.ximalaya.com # From: Custom Whitelist
+adbiding.com # From: Custom Whitelist
+adfljjhx.3g0utbyo.cc # From: Custom Whitelist
+adfsda005.xyz # From: Custom Whitelist
+adim.pinduoduo.com # From: Custom Whitelist
+adimg.uve.weibo.com # From: Custom Whitelist
+adlaunch.moji.com # From: Custom Whitelist
+adm*.autoimg.cn # From: Custom Whitelist
+adproxy.autohome.com.cn # From: Custom Whitelist
+ads*-normal-hl.zijieapi.comimportant # From: Custom Whitelist
+ads*.cj.sina.com.cn # From: Custom Whitelist
+ads.bssdl.kugou.com # From: Custom Whitelist
+ads.facebook.com # From: Custom Whitelist
+ads.google.com # From: Custom Whitelist
+ads.mojicdn.com # From: Custom Whitelist
+ads.reddit.com # From: Custom Whitelist
+ads.yap.yahoo.com # From: Custom Whitelist
+adsdk.idmzj.com # From: Custom Whitelist
+adsdk.vivo.com.cn # From: Custom Whitelist
+adsdkapi.dxys.pro # From: Custom Whitelist
+adsehera.ximalaya.com # From: Custom Whitelist
+adservice.kugou.com # From: Custom Whitelist
+adserviceretry.kglink.cn # From: Custom Whitelist
+adult-movie.bidobido.xyz # From: Custom Whitelist
+adv.api.mucfc.com # From: Custom Whitelist
 advertise.baicizhan.com # From: Menghuibanxian-White
+advlion.com # From: Custom Whitelist
+adx.dictapis.cn # From: Custom Whitelist
 ae.bdstatic.com # From: Menghuibanxian-White
 ae01.alicdn.com # From: Menghuibanxian-White
 aegis.qq.com # From: Menghuibanxian-White
 afdian.net # From: Menghuibanxian-White
+afuyer.com # From: Custom Whitelist
+ag-bj.2023126wz522.xyz # From: Custom Whitelist
 ah2.zhangyue.com # From: Menghuibanxian-White
+ahdohpiechei.com # From: Custom Whitelist
+ahiae.com # From: Custom Whitelist
+ahtdqlz.cn # From: Custom Whitelist
+aiclk.com # From: Custom Whitelist
+ailianna.cn # From: Custom Whitelist
 aip.baidubce.com # From: Menghuibanxian-White
+aishanglight.com # From: Custom Whitelist
 ajax.aspnetcdn.com # From: Menghuibanxian-White
 ajji7i0j.sslego.tcloudscdn.com # From: Menghuibanxian-White
+ajshs.cn # From: Custom Whitelist
 akamai.net # From: Menghuibanxian-White
 akamaiedge.net # From: Menghuibanxian-White
-akamaihd.net # From: anudeepND-whitelist
-akamaitechnologies.com # From: anudeepND-whitelist
-akamaized.net # From: anudeepND-whitelist
+al.nn.ci # From: Custom Whitelist
 ali-stats.jpush.cn # From: Menghuibanxian-White
 ali-sz.a.yximgs.com # From: Menghuibanxian-White
 ali.static.yximgs.com # From: Menghuibanxian-White
@@ -87,8 +266,12 @@ alibabadns.com # From: Menghuibanxian-White
 alicdn.com # From: Menghuibanxian-White
 alidns.com # From: Menghuibanxian-White
 alipay.com # From: Menghuibanxian-White
+alist.nn.ci # From: Custom Whitelist
+alistgo.com # From: Custom Whitelist
+alita.waimai.meituan.com # From: Custom Whitelist
 aliyun.com # From: Menghuibanxian-White
 aliyuncs.com # From: Menghuibanxian-White
+alpha0321.xoclicked.icu # From: Custom Whitelist
 alt1-mtalk.google.com # From: Menghuibanxian-White
 alt2-mtalk.google.com # From: Menghuibanxian-White
 alt3-mtalk.google.com # From: Menghuibanxian-White
@@ -97,35 +280,56 @@ alt5-mtalk.google.com # From: Menghuibanxian-White
 alt6-mtalk.google.com # From: Menghuibanxian-White
 alt7-mtalk.google.com # From: Menghuibanxian-White
 alt8-mtalk.google.com # From: Menghuibanxian-White
-amazonaws.com # From: anudeepND-whitelist
+am3-745151.xyz # From: Custom Whitelist
+amazonclix.com # From: Custom Whitelist
 amdc.alipay.com # From: Menghuibanxian-White
 amdc.m.taobao.com # From: Menghuibanxian-White
 amp-api-edge.apps.apple.com # From: Menghuibanxian-White
 ams.lenovomm.com # From: Menghuibanxian-White
+analytics-api-*.smzdm.com # From: Custom Whitelist
 analytics-api-01.smzdm.com # From: Menghuibanxian-White
 analytics.95516.com # From: Menghuibanxian-White
 analytics.95516.com.bsclink.cn # From: Menghuibanxian-White
 analytics.95516.com.wscdns.com # From: Menghuibanxian-White
+analytics.facebook.com # From: Custom Whitelist
 analytics.githubassets.com # From: Menghuibanxian-White
 analytics.map.qq.com # From: Menghuibanxian-White
 analytics.meituan.net # From: Menghuibanxian-White
+analytics.oneplus.cn # From: Custom Whitelist
 analytics.umetrip.com # From: Menghuibanxian-White
 android-artworks.25pp.com # From: Menghuibanxian-White
 android.bugly.qq.com # From: Menghuibanxian-White
-android.clients.google.com # From: anudeepND-whitelist
 answers.microsoft.com # From: Menghuibanxian-White
 answersstaticfilecdnv2.azureedge.net # From: Menghuibanxian-White
+antirustdynamicsulfite.com # From: Custom Whitelist
+anws.top # From: Custom Whitelist
 any.cdn-go.cn.sched.legopic1-dk.tdnsv6.com.tpic.cdn.chinaidcnet.com # From: Menghuibanxian-White
+any0512.sdloptez.com # From: Custom Whitelist
+anythinktech.com # From: Custom Whitelist
+aoao11190iis.top # From: Custom Whitelist
+aoao11191iis.top # From: Custom Whitelist
+aoao11221iis.top # From: Custom Whitelist
+aoao12060iis.top # From: Custom Whitelist
+aoqinglv.cn # From: Custom Whitelist
+aoxinshangmao.xyz # From: Custom Whitelist
+ap-o.freespace.top # From: Custom Whitelist
 ap6.ssl.msdk.qq.com # From: Menghuibanxian-White
+apd-pcdnwxlogin.teg.tencent-cloud.net # From: Custom Whitelist
 apd-vodp2plogin.teg.tencent-cloud.net # From: Menghuibanxian-White
+api*-normal-c-lf.amemv.com # From: Custom Whitelist
 api-aicall.aiasst.xiaomi.com # From: Menghuibanxian-White
 api-bc.wtzw.com # From: Menghuibanxian-White
+api-cf.nn.ci # From: Custom Whitelist
 api-cfg.wtzw.com # From: Menghuibanxian-White
 api-cn.cdo.heytapmobi.com # From: Menghuibanxian-White
 api-cn.store.heytapmobi.com # From: Menghuibanxian-White
 api-cn.theme.heytapmobi.com # From: Menghuibanxian-White
+api-flow.flyme.cn # From: Custom Whitelist
+api-hotjar.com # From: Custom Whitelist
+api-my-api-5hw5ou-b810d8-80-75-218-107.traefik.me # From: Custom Whitelist
 api-overmind.youdao.com # From: Menghuibanxian-White
 api-sc.wtzw.com # From: Menghuibanxian-White
+api-share.mob.com # From: Custom Whitelist
 api-shoulei-ssl.xunlei.com # From: Menghuibanxian-White
 api-unionid.meituan.com # From: Menghuibanxian-White
 api.account.xiaomi.com # From: Menghuibanxian-White
@@ -133,17 +337,18 @@ api.bing.com # From: Menghuibanxian-White
 api.cloud.huawei.com # From: Menghuibanxian-White
 api.comm.miui.com # From: Menghuibanxian-White
 api.data.meitu.com # From: Menghuibanxian-White
-api.developer.xiaomi.com # From: Menghuibanxian-White
+api.developer.xiaomi.com # From: Custom Whitelist
 api.device.xiaomi.net # From: Menghuibanxian-White
 api.dmzj.com # From: Menghuibanxian-White
 api.driver.360safe.com # From: Menghuibanxian-White
+api.e.kuaishou.cn # From: Custom Whitelist
 api.e.kuaishou.com # From: Menghuibanxian-White
+api.edimob.com # From: Custom Whitelist
 api.g.micloud.xiaomi.net # From: Menghuibanxian-White
 api.geetest.com # From: Menghuibanxian-White
 api.github.com # From: Menghuibanxian-White
 api.io.mi.com # From: Menghuibanxian-White
 api.ip.sb # From: Menghuibanxian-White
-api.ipify.org # From: anudeepND-whitelist
 api.iplay.163.com # From: Menghuibanxian-White
 api.jr.mi.com # From: Menghuibanxian-White
 api.kingdata.ksyun.com # From: Menghuibanxian-White
@@ -157,25 +362,34 @@ api.micloud.xiaomi.net # From: Menghuibanxian-White
 api.miwifi.com # From: Menghuibanxian-White
 api.music.xiaomi.com # From: Menghuibanxian-White
 api.neixin.cn # From: Menghuibanxian-White
+api.nn.ci # From: Custom Whitelist
 api.onedrive.com # From: Menghuibanxian-White
 api.open.oppomobile.com # From: Menghuibanxian-White
+api.qttunion.com # From: Custom Whitelist
 api.revenuecat.com # From: Menghuibanxian-White
-api.rlje.net # From: anudeepND-whitelist
 api.sec.miui.com # From: Menghuibanxian-White
+api.sina.cn # From: Custom Whitelist
 api.smoot.apple.com # From: Menghuibanxian-White
+api.ssp.xcultur.com # From: Custom Whitelist
 api.taptapdada.com # From: Menghuibanxian-White
 api.tw06.xlmc.sec.miui.com # From: Menghuibanxian-White
+api.umengcn.org # From: Custom Whitelist
 api.union.vip.com # From: Menghuibanxian-White
 api.vip.miui.com # From: Menghuibanxian-White
 api.weather.com # From: Menghuibanxian-White
+api.xhofe.top # From: Custom Whitelist
 api.xunyou.mobi # From: Menghuibanxian-White
 api.zhuti.xiaomi.com # From: Menghuibanxian-White
+api2.dealmoon.cn # From: Custom Whitelist
 api2.e.kuaishou.com # From: Menghuibanxian-White
 api3.ksapisrv.com # From: Menghuibanxian-White
 api5-normal-lf.fqnovel.com # From: Menghuibanxian-White
+api7.tuisong.baidu.com # From: Custom Whitelist
+apidns.kwd.inkuai.com # From: Custom Whitelist
 apihb6.gifshow.com # From: Menghuibanxian-White
 apihb6.ksapisrv.com # From: Menghuibanxian-White
 apiion.weather.com.edgekey.net # From: Menghuibanxian-White
+apijm.cc # From: Custom Whitelist
 apijs.gifshow.com # From: Menghuibanxian-White
 apijsv6.gifshow.com # From: Menghuibanxian-White
 apijsv6.ksapisrv.com # From: Menghuibanxian-White
@@ -186,139 +400,214 @@ apissl.ksapisrv.com # From: Menghuibanxian-White
 apiv4-iyes.youku.com # From: Menghuibanxian-White
 apk.360buyimg.com.volcgslb.com # From: Menghuibanxian-White
 apkmirror.com # From: Menghuibanxian-White
-app-api.ted.com # From: anudeepND-whitelist
+apm-a.pinduoduo.com # From: Custom Whitelist
+app-api.smzdm.com # From: Custom Whitelist
 app-measurement.com # From: Menghuibanxian-White
 app-monitor.ele.me # From: Menghuibanxian-White
+app.adjust.io # From: Custom Whitelist
 app.bilibili.com # From: Menghuibanxian-White
+app.duxiaomanfintech.com # From: Custom Whitelist
 app.kwaixiaodian.com # From: Menghuibanxian-White
-app.market.xiaomi.com # From: Menghuibanxian-White
+app.market.xiaomi.com # From: Custom Whitelist
+appapi.51job.com # From: Custom Whitelist
 appbackupapi.micloud.xiaomi.net # From: Menghuibanxian-White
 appcloud2.in.zhihu.com # From: Menghuibanxian-White
 appconf.heytapdownload.com # From: Menghuibanxian-White
 appdownload.alicdn.com # From: Menghuibanxian-White
 appimg.dbankcdn.com # From: Menghuibanxian-White
 apple-dns.net # From: Menghuibanxian-White
+apple0925.com # From: Custom Whitelist
 appledownload.qtlcdn.com # From: Menghuibanxian-White
-appleid.apple.com # From: anudeepND-whitelist
 appleid.cdn-apple.com # From: Menghuibanxian-White
+applog-bd.muniao.com # From: Custom Whitelist
+applogapi.autohome.com.cn # From: Custom Whitelist
+apponline.research.qq.com # From: Custom Whitelist
 apps.apple.com # From: Menghuibanxian-White
-apps.skype.com # From: anudeepND-whitelist
-appsbackup-pa.clients6.google.com # From: anudeepND-whitelist
-appsbackup-pa.googleapis.com # From: anudeepND-whitelist
 appsec-mobile.meituan.com # From: Menghuibanxian-White
-appspot-preview.l.google.com # From: anudeepND-whitelist
+appsflyersdk.com # From: Custom Whitelist
 appsupport.qq.com # From: Menghuibanxian-White
-apt.sonarr.tv # From: anudeepND-whitelist
+appupdate.189.cn # From: Custom Whitelist
+appupdates.189.cn # From: Custom Whitelist
+aprewf.cn # From: Custom Whitelist
 argon.molinero.dev # From: Menghuibanxian-White
+arkrecode8.ero-labs.live # From: Custom Whitelist
 as.smvm.cn # From: Menghuibanxian-White
-aspnetcdn.com # From: anudeepND-whitelist
+asefc.cn # From: Custom Whitelist
+ashcnq.cn # From: Custom Whitelist
+asia-sdbq.com # From: Custom Whitelist
 assets.msn.cn # From: Menghuibanxian-White
 assets.msn.com # From: Menghuibanxian-White
 assets.tapimg.com # From: Menghuibanxian-White
-attestation.xboxlive.com # From: anudeepND-whitelist
+assoc-amazon.com # From: Custom Whitelist
+at.pinduoduo.com # From: Custom Whitelist
+atrace.chelaile.net.cn # From: Custom Whitelist
+aty.com # From: Custom Whitelist
 au.download.windowsupdate.com # From: Menghuibanxian-White
 audid-api.taobao.com # From: Menghuibanxian-White
 auth-v2.oray.com # From: Menghuibanxian-White
 auth.be.sec.miui.com # From: Menghuibanxian-White
+auto423.com # From: Custom Whitelist
 autopush.prod.mozaws.net # From: Menghuibanxian-White
+auwcgbl.com # From: Custom Whitelist
+avdog-t0065.vip # From: Custom Whitelist
 avu8qy84.sched.dma-dk.tdnsdl1.cn # From: Menghuibanxian-White
+avvbzudpi.com # From: Custom Whitelist
 aweme.snssdk.com # From: Menghuibanxian-White
 awp-assets.meituan.net # From: Menghuibanxian-White
-ax.phobos.apple.com.edgesuite.net # From: anudeepND-whitelist
+axyim.cn # From: Custom Whitelist
+axyqd.cn # From: Custom Whitelist
+ayh3.xyz # From: Custom Whitelist
+ayhnb.cn # From: Custom Whitelist
+azhibo.com # From: Custom Whitelist
 azwindows.ipv6.microsoft.com.akadns.net # From: Menghuibanxian-White
 b.bdstatic.com # From: Menghuibanxian-White
+b0fe2304c355.com # From: Custom Whitelist
+b1nhiibn.top # From: Custom Whitelist
 b23.tv # From: Menghuibanxian-White
+b2743.el7x1ptm2b73.vip # From: Custom Whitelist
+b58456413.com # From: Custom Whitelist
+b5gvpk5.com # From: Custom Whitelist
+b5zzr.cc # From: Custom Whitelist
+b7h.top # From: Custom Whitelist
+b84e-74.uw3wri6g.cc # From: Custom Whitelist
+b9042.gu8t94c.top # From: Custom Whitelist
 baidu.com # From: Menghuibanxian-White
 baijiahao.baidu.com # From: Menghuibanxian-White
 baike.baidu.hk # From: Menghuibanxian-White
 baike.so.com # From: Menghuibanxian-White
+baishan.cdn.adintl.cn # From: Custom Whitelist
+bc-ad-vod.zdmimg.com # From: Custom Whitelist
 bcy.net # From: Menghuibanxian-White
 bd0.d.meituan.net # From: Menghuibanxian-White
+bdvwityy.cc # From: Custom Whitelist
+bdxiguaimg.com # From: Custom Whitelist
 beacon-api.aliyuncs.com # From: Menghuibanxian-White
+benniao666.com # From: Custom Whitelist
+ber3.xyz # From: Custom Whitelist
 bgp.g0.cn.slb.xiaomi.com # From: Menghuibanxian-White
+bhgzwqy.top # From: Custom Whitelist
 big.bilibili.com # From: Menghuibanxian-White
+bigdata.ssp.samsung.com # From: Custom Whitelist
+biliapi.com # From: Custom Whitelist
+biliapi.net # From: Custom Whitelist
 bing.com # From: Menghuibanxian-White
+birdgesdk.com # From: Custom Whitelist
 bjm7-incu.gifshow.com # From: Menghuibanxian-White
+bkappad.189.cn # From: Custom Whitelist
 bkimg.cdn.bcebos.com.a.bdydns.com # From: Menghuibanxian-White
 bkssl.bdimg.com.a.bdydns.com # From: Menghuibanxian-White
 bl6pap003.storage.live.com # From: Menghuibanxian-White
+black.qimo.ink # From: Custom Whitelist
 blackhole.m.jd.com # From: Menghuibanxian-White
+bldmx.cn # From: Custom Whitelist
 blog.51cto.com # From: Menghuibanxian-White
 blog.csdn.net # From: Menghuibanxian-White
 blog.technitium.com # From: Menghuibanxian-White
+bmcx.com # From: Custom Whitelist
+bmkjku09.cc # From: Custom Whitelist
+bnpkxgfp.xyz # From: Custom Whitelist
+bob4892.com # From: Custom Whitelist
+bobobo65.icu # From: Custom Whitelist
+bootpreload.uve.weibo.com # From: Custom Whitelist
 boxer.baidu.com # From: Menghuibanxian-White
+bpmzabw.cn # From: Custom Whitelist
+bqg16.cc # From: Custom Whitelist
 breeno.apps.coloros.com # From: Menghuibanxian-White
-brightcove.net # From: anudeepND-whitelist
 broccoli.uc.cn # From: Menghuibanxian-White
+browser.sentry-cdn.com # From: Custom Whitelist
 browsers-pri-c3-c4.alb.xiaomi.com # From: Menghuibanxian-White
+btebgl.xyz # From: Custom Whitelist
+buryingapi.xiaocantech.com # From: Custom Whitelist
+business-ad.cdn-go.cn # From: Custom Whitelist
+bvcmsw.cn # From: Custom Whitelist
+bw558.com # From: Custom Whitelist
+bw885.vip # From: Custom Whitelist
+bwaa011.top # From: Custom Whitelist
+bwaa301.icu # From: Custom Whitelist
 bytedance.com # From: Menghuibanxian-White
+bzuh3qw6t7aq.top # From: Custom Whitelist
 c-0001.c-msedge.net # From: Menghuibanxian-White
+c.autohome.com.cn # From: Custom Whitelist
 c.cdnhwc2.com # From: Menghuibanxian-White
 c.duomai.com # From: Menghuibanxian-White
 c.isdspeed.qq.com # From: Menghuibanxian-White
 c.microsoft.com # From: Menghuibanxian-White
 c.mipcdn.com # From: Menghuibanxian-White
 c.pc.qq.com # From: Menghuibanxian-White
-c.s-microsoft.com # From: anudeepND-whitelist
 c.sayhi.360.cn # From: Menghuibanxian-White
 c.y.qq.com # From: Menghuibanxian-White
+c8b12.d8md92m.top # From: Custom Whitelist
 cainiao-app-logs.cn-zhangjiakou.dualstack.log.aliyuncs.com # From: Menghuibanxian-White
 camera.api.io.mi.com # From: Menghuibanxian-White
+capmvb.net # From: Custom Whitelist
 captcha.zt.kuaishou.com # From: Menghuibanxian-White
 captive.g.aaplimg.com # From: Menghuibanxian-White
+catdot.dianping.com # From: Custom Whitelist
+catfront.dianping.com # From: Custom Whitelist
+cbhdmir.cn # From: Custom Whitelist
 cbu01.alicdn.com # From: Menghuibanxian-White
 cc.map.qq.com # From: Menghuibanxian-White
+ccd23.glaydoblzolvryc7otrikuvon.com # From: Custom Whitelist
+ccd23.pridraprindrovryc7ofakdal.com # From: Custom Whitelist
+cdn-*.g52j7.com # From: Custom Whitelist
 cdn-go.cn # From: Menghuibanxian-White
+cdn-msp*.jmdanjonproxy.vip # From: Custom Whitelist
+cdn-recovery.autohome.com.cn # From: Custom Whitelist
 cdn.ark.qq.com # From: Menghuibanxian-White
 cdn.bootcdn.net # From: Menghuibanxian-White
 cdn.bootcss.com # From: Menghuibanxian-White
 cdn.bytedance.com # From: Menghuibanxian-White
-cdn.cloudflare.net # From: anudeepND-whitelist
 cdn.cnbj1.fds.api.mi-img.com # From: Menghuibanxian-White
 cdn.cnbj1.fds.api.mi-img.com.mgslb.com # From: Menghuibanxian-White
-cdn.embedly.com # From: anudeepND-whitelist
 cdn.exp.xiaomi.com # From: Menghuibanxian-White
 cdn.fds.api.xiaomi.com # From: Menghuibanxian-White
 cdn.jsdelivr.net # From: Menghuibanxian-White
 cdn.kuaidi100.com # From: Menghuibanxian-White
-cdn.optimizely.com # From: anudeepND-whitelist
 cdn.privacy-mgmt.com # From: Menghuibanxian-White
+cdn.smartimg.chelaile.net.cn # From: Custom Whitelist
 cdn.u1.huluxia.com # From: Menghuibanxian-White
-cdn.vidible.tv # From: anudeepND-whitelist
 cdn.web-global.fds.api.mi-img.com # From: Menghuibanxian-White
 cdn.web-global.fds.api.mi-img.com.mgslb.com # From: Menghuibanxian-White
 cdn.wtzw.com # From: Menghuibanxian-White
 cdn.ynuf.aliapp.org # From: Menghuibanxian-White
 cdn.yyb.gtimg.com # From: Menghuibanxian-White
 cdn2.jianshu.io # From: Menghuibanxian-White
-cdn2.optimizely.com # From: anudeepND-whitelist
-cdn3.optimizely.com # From: anudeepND-whitelist
 cdndata.video.iqiyi.com # From: Menghuibanxian-White
-cdnjs.cloudflare.com # From: anudeepND-whitelist
-cert.mgt.xboxlive.com # From: anudeepND-whitelist
+cdocker401.com # From: Custom Whitelist
+cdocker402.com # From: Custom Whitelist
+cdsxaz02.xyz # From: Custom Whitelist
 cf.aliyun.com # From: Menghuibanxian-White
 cfg.imtt.qq.com # From: Menghuibanxian-White
 cftweb.3g.qq.com # From: Menghuibanxian-White
 cgi.connect.qq.com # From: Menghuibanxian-White
 cgicol.amap.com # From: Menghuibanxian-White
+cgyx.tv # From: Custom Whitelist
+ch3hugifdos.com # From: Custom Whitelist
+ch4jmut9c.com # From: Custom Whitelist
 channel.api.duapp.com # From: Menghuibanxian-White
+chat.bilibili.com # From: Custom Whitelist
 chatglm.cn # From: Menghuibanxian-White
 checkappexec.microsoft.com # From: Menghuibanxian-White
+chengzijianzhan.com # From: Custom Whitelist
+cherrytale.ero-labs.live # From: Custom Whitelist
 chinacdnweb.qiniu.com.w.kunlunno.com # From: Menghuibanxian-White
 chong.qq.com # From: Menghuibanxian-White
+chqn.cc # From: Custom Whitelist
 chrome.cloudflare-dns.com # From: Menghuibanxian-White
+cimumusic.com # From: Custom Whitelist
+cjjd14.com # From: Custom Whitelist
+click.oneplus.com # From: Custom Whitelist
 client-env.dropbox-dns.com # From: Menghuibanxian-White
 client-uc.heytapmobi.com # From: Menghuibanxian-White
 client.wns.windows.com # From: Menghuibanxian-White
-clientconfig.passport.net # From: anudeepND-whitelist
 clients.google.com # From: Menghuibanxian-White
 clients.l.google.com # From: Menghuibanxian-White
-clients1.google.com # From: anudeepND-whitelist
-clients2.google.com # From: anudeepND-whitelist
-clients3.google.com # From: anudeepND-whitelist
-clients4.google.com # From: anudeepND-whitelist
-clients5.google.com # From: anudeepND-whitelist
-clients6.google.com # From: anudeepND-whitelist
+clients1.google.com # From: Menghuibanxian-White
+clients2.google.com # From: Menghuibanxian-White
+clients3.google.com # From: Menghuibanxian-White
+clients4.google.com # From: Menghuibanxian-White
+clients5.google.com # From: Menghuibanxian-White
+clients6.google.com # From: Menghuibanxian-White
 clientservices.googleapis.com # From: Menghuibanxian-White
 cloud.codenow.cn # From: Menghuibanxian-White
 cloud.tencent.com # From: Menghuibanxian-White
@@ -336,82 +625,96 @@ code.bdstatic.com # From: Menghuibanxian-White
 collector.github.com # From: Menghuibanxian-White
 common-mfe.didistatic.com # From: Menghuibanxian-White
 common.fcbox.com # From: Menghuibanxian-White
+compliance.tdos.qq.com # From: Custom Whitelist
+conf-darwin.xycdn.com # From: Custom Whitelist
 conf.diditaxi.com.cn # From: Menghuibanxian-White
 config.edge.skype.com # From: Menghuibanxian-White
 config.teams.microsoft.com # From: Menghuibanxian-White
 configurtion.apple.com # From: Menghuibanxian-White
 connect.rom.miui.com # From: Menghuibanxian-White
-connectivitycheck.android.com # From: anudeepND-whitelist
-connectivitycheck.gstatic.com # From: anudeepND-whitelist
 consumer-img.huawei.com # From: Menghuibanxian-White
+content-autofill.googleapis.com # From: Custom Whitelist
 contentcenter-drcn.dbankcdn.com # From: Menghuibanxian-White
-continuum.dds.microsoft.com # From: anudeepND-whitelist
+contrib.nn.ci # From: Custom Whitelist
+cos-c01-1308024008.cos.ap-guangzhou.myqcloud.com # From: Custom Whitelist
 cos.accelerate.myqcloud.com # From: Menghuibanxian-White
 course.myquark.cn # From: Menghuibanxian-White
 cp801.prod.do.dsp.mp.microsoft.com # From: Menghuibanxian-White
-cpms.spop10.ams.plex.bz # From: anudeepND-whitelist
-cpms35.spop10.ams.plex.bz # From: anudeepND-whitelist
+cppe43f35.com # From: Custom Whitelist
 cpu.baidu.com # From: Menghuibanxian-White
 cpucdn.baidu.com # From: Menghuibanxian-White
+cpwpmql.icu # From: Custom Whitelist
 cqc-download.weiyun.com # From: Menghuibanxian-White
 creditcard-fin.meituan.com # From: Menghuibanxian-White
 creditpay.meituan.com # From: Menghuibanxian-White
 cs486.wpc.2d930.phicdn.net # From: Menghuibanxian-White
 cs95619.adn.psicdn.net # From: Menghuibanxian-White
 cs95619.wpc.psicdn.net # From: Menghuibanxian-White
-cse.google.com # From: anudeepND-whitelist
+cse1.cc # From: Custom Whitelist
 cseupdate.360safe.com # From: Menghuibanxian-White
 cstaticdun.126.net # From: Menghuibanxian-White
-ctldl.windowsupdate.com # From: anudeepND-whitelist
+ctldl.windowsupdate.com # From: Menghuibanxian-White
 cubox.pro # From: Menghuibanxian-White
 cupfox.app # From: Menghuibanxian-White
-cws.conviva.com # From: anudeepND-whitelist
+cwt3.xyz # From: Custom Whitelist
 cwx.qlogo.cn # From: Menghuibanxian-White
+cyfupnq.com # From: Custom Whitelist
 cz88.net # From: Menghuibanxian-White
+czpnpjrg.xyz # From: Custom Whitelist
 d.image.i4.cn # From: Menghuibanxian-White
 d.kugou.com # From: Menghuibanxian-White
 d.meituan.net # From: Menghuibanxian-White
 d.url.cn # From: Menghuibanxian-White
 d1.music.126.net # From: Menghuibanxian-White
+d1kwwba460bbwa.cloudfront.net # From: Custom Whitelist
 d2-push.static.yximgs.com # From: Menghuibanxian-White
 d2-yoda.a.kwimgs.com # From: Menghuibanxian-White
-d2c8v52ll5s99u.cloudfront.net # From: anudeepND-whitelist
-d2gatte9o95jao.cloudfront.net # From: anudeepND-whitelist
 d3-ks.a.kwimgs.com # From: Menghuibanxian-White
 d34chcsvb7ug62.cloudfront.net # From: Menghuibanxian-White
 d3g.qq.com # From: Menghuibanxian-White
 d66-plat-solar.wsukwai.com # From: Menghuibanxian-White
+da.qiyukf.com # From: Custom Whitelist
 da.xboxservices.com # From: Menghuibanxian-White
-dashboard.plex.tv # From: anudeepND-whitelist
+dalianyongfa.com # From: Custom Whitelist
 dashi.163.com # From: Menghuibanxian-White
+data-sdk-uuid-log.d.meituan.net # From: Custom Whitelist
 data-sdk-uuid-report.dreport.meituan.net # From: Menghuibanxian-White
+data.ab.qq.com # From: Custom Whitelist
 data.bilibili.com # From: Menghuibanxian-White
 data.game.xiaomi.com # From: Menghuibanxian-White
 data.jsdelivr.com # From: Menghuibanxian-White
+data.mistat.intl.xiaomi.com # From: Custom Whitelist
 data.sec.miui.com # From: Menghuibanxian-White
-dataplicity.com # From: anudeepND-whitelist
+dbf7ve.com # From: Custom Whitelist
 dcat-tlu-fg-shim.trafficmanager.net # From: Menghuibanxian-White
 dd.myapp.com # From: Menghuibanxian-White
+dd9018.drevryc7mznoxurtaklendro.com # From: Custom Whitelist
+dd9018.nektozevrxolvryc7mmraon.com # From: Custom Whitelist
+dd9018.tyvexstraqorvryc7mvimvik.com # From: Custom Whitelist
 ddplus.meituan.net # From: Menghuibanxian-White
-def-vef.xboxlive.com # From: anudeepND-whitelist
 default.cn.nt.wagbridge.ad.alibabacorp.com.gds.alibabadns.com # From: Menghuibanxian-White
 default.cn.wagbridge.ad.alibabacorp.com # From: Menghuibanxian-White
 default.cn.wagbridge.ad.alibabacorp.com.gds.alibabadns.com # From: Menghuibanxian-White
-delivery.vidible.tv # From: anudeepND-whitelist
+deifei.com # From: Custom Whitelist
+dentsuchina.cn # From: Custom Whitelist
 detectportal.firefox.com # From: Menghuibanxian-White
-dev.virtualearth.net # From: anudeepND-whitelist
-device.auth.xboxlive.com # From: anudeepND-whitelist
+dev0324.hexavibe.icu # From: Custom Whitelist
+device.auth.xboxlive.com # From: Menghuibanxian-White
+dfdd-toubiaole.com # From: Custom Whitelist
 dg.k.jd.com # From: Menghuibanxian-White
+dgswpfxttpjvz6h9s013.com # From: Custom Whitelist
+dhgycl.cn # From: Custom Whitelist
+dimg*.c-ctrip.com # From: Custom Whitelist
+dingouqc.com # From: Custom Whitelist
 direction2.is.autonavi.com # From: Menghuibanxian-White
 disp.titan.mgtv.com # From: Menghuibanxian-White
 dispatcher.is.autonavi.com # From: Menghuibanxian-White
-display.ugc.bazaarvoice.com # From: anudeepND-whitelist
 displaycatalog-rp.md.mp.microsoft.com.akadns.net # From: Menghuibanxian-White
-displaycatalog.mp.microsoft.com # From: anudeepND-whitelist
+ditiehunlian.com # From: Custom Whitelist
+djijrsh270.vip # From: Custom Whitelist
+djlacgc.top # From: Custom Whitelist
+dkhwyzv.com # From: Custom Whitelist
 dl.360safe.com # From: Menghuibanxian-White
-dl.delivery.mp.microsoft.com # From: anudeepND-whitelist
-dl.dropbox.com # From: anudeepND-whitelist
-dl.dropboxusercontent.com # From: anudeepND-whitelist
 dl.url.cn # From: Menghuibanxian-White
 dldir1.qq.com # From: Menghuibanxian-White
 dldir1v6.qq.com # From: Menghuibanxian-White
@@ -421,8 +724,11 @@ dm.pstatp.com # From: Menghuibanxian-White
 dm.toutiao.com # From: Menghuibanxian-White
 dm.toutiao.com.w.cdngslb.com # From: Menghuibanxian-White
 dm.video.qq.com # From: Menghuibanxian-White
+dmugc-cn.domobcdn.com # From: Custom Whitelist
 dn-staticdown.qbox.me # From: Menghuibanxian-White
 dnkeeper.hicloud.com # From: Menghuibanxian-White
+dnl382.com # From: Custom Whitelist
+dns*.weixin.qq.* # From: Custom Whitelist
 dns-unfiltered.adguard.com # From: Menghuibanxian-White
 dns.aa.net.uk # From: Menghuibanxian-White
 dns.adguard.com # From: Menghuibanxian-White
@@ -431,61 +737,98 @@ dns.cloudflare.com # From: Menghuibanxian-White
 dns.digitale-gesellschaft.ch # From: Menghuibanxian-White
 dns.google # From: Menghuibanxian-White
 dns.google.com # From: Menghuibanxian-White
-dns.msftncsi.com # From: anudeepND-whitelist
+dns.jd.com # From: Custom Whitelist
+dns.m.sm.cn # From: Custom Whitelist
 dns.nextdns.io # From: Menghuibanxian-White
 dns.pub # From: Menghuibanxian-White
+dns.qiyipic.iqiyi.com # From: Custom Whitelist
+dns.qq.com # From: Custom Whitelist
 dns.rubyfish.cn # From: Menghuibanxian-White
 dns.twnic.tw # From: Menghuibanxian-White
+dns.weibo.cn # From: Custom Whitelist
 dns11.quad9.net # From: Menghuibanxian-White
 dnscheck.tools # From: Menghuibanxian-White
+docs.c-ctrip.com # From: Custom Whitelist
 docs.idqqimg.com # From: Menghuibanxian-White
 doh.360.cn # From: Menghuibanxian-White
 doh.cleanbrowsing.org # From: Menghuibanxian-White
-doh.dns.apple.com # From: Menghuibanxian-White
+doh.dns.apple.com # From: Custom Whitelist
 doh.dns.sb # From: Menghuibanxian-White
+doh.iqiyi.com # From: Custom Whitelist
 doh.opendns.com # From: Menghuibanxian-White
+doh.ptqy.gitv.tv # From: Custom Whitelist
 doh.pub # From: Menghuibanxian-White
+domob.cn # From: Custom Whitelist
+donglaiwuye.com # From: Custom Whitelist
+dot.api.idmzj.com # From: Custom Whitelist
 dot.pub # From: Menghuibanxian-White
 dotserver.douyucdn.cn # From: Menghuibanxian-White
 douban.com # From: Menghuibanxian-White
+doubleclick.net # From: Custom Whitelist
+douyinliving.com # From: Custom Whitelist
 down.360safe.com # From: Menghuibanxian-White
-download.sonarr.tv # From: anudeepND-whitelist
+down.apps.sina.cn # From: Custom Whitelist
+download*.ctrip.com # From: Custom Whitelist
 downv6.qq.com.legodlied1-dk.sched.dcloudstc.com.tdl.ctly.willcdn.cn # From: Menghuibanxian-White
+dp.im.weibo.cn # From: Custom Whitelist
+drbdlx.cn # From: Custom Whitelist
 drcn-weather.cloud.huawei.com # From: Menghuibanxian-White
-dreport.meituan.net # From: Menghuibanxian-White
-drift.com # From: anudeepND-whitelist
-driftt.com # From: anudeepND-whitelist
+dreamkeep.vip # From: Custom Whitelist
+dreport.meituan.net # From: Custom Whitelist
 drvsky.com # From: Menghuibanxian-White
+ds4x53xfg4f53gh453h.top # From: Custom Whitelist
+dsgfhl.com # From: Custom Whitelist
+dsimpkr.cn # From: Custom Whitelist
 dsp-impr2.youdao.com # From: Menghuibanxian-White
+dsplog-adnet.vivo.com.cn # From: Custom Whitelist
+dss0.bdstatic.com # From: Custom Whitelist
+dt64g8m.pro # From: Custom Whitelist
 dualstack-a.apilocate.amap.com # From: Menghuibanxian-White
 dualstack-na610-na620.acs.m.taobao.com # From: Menghuibanxian-White
 duckduckgo.com # From: Menghuibanxian-White
+duxiaoman.com # From: Custom Whitelist
+dvclw.cn # From: Custom Whitelist
+dw-reader.meizu.com # From: Custom Whitelist
+dy03bw0.pro # From: Custom Whitelist
 dynamic-dns.net # From: Menghuibanxian-White
-dynupdate.no-ip.com # From: anudeepND-whitelist
 dynv6.com # From: Menghuibanxian-White
+dzigj.com # From: Custom Whitelist
+dzxxtdub.com # From: Custom Whitelist
+e-ad-monitor.huya.com # From: Custom Whitelist
+e-goblin.hupu.com # From: Custom Whitelist
 e.reddit.com # From: Menghuibanxian-White
 e.tapdb.net # From: Menghuibanxian-White
+e5449949.vip # From: Custom Whitelist
 e5aehtlc5e.cloudflare-gateway.com # From: Menghuibanxian-White
 e673.dscx.akamaiedge.net # From: Menghuibanxian-White
+e7y3v.top # From: Custom Whitelist
+eavztdi.com # From: Custom Whitelist
+eb9d08d7-3b5.umt7xyio89ro.cc # From: Custom Whitelist
 ec1-core.ecombdapi.com # From: Menghuibanxian-White
 ec2-core.ecombdapi.com # From: Menghuibanxian-White
 ec3-core.ecombdapi.com # From: Menghuibanxian-White
 ec4-core.ecombdapi.com # From: Menghuibanxian-White
 ec5-core.ecombdapi.com # From: Menghuibanxian-White
-ecn.dev.virtualearth.net # From: anudeepND-whitelist
-edge.api.brightcove.com # From: anudeepND-whitelist
+ecombd*.com # From: Custom Whitelist
+ed4d3uu.nl # From: Custom Whitelist
 edge.microsoft.com # From: Menghuibanxian-White
-eds.xboxlive.com # From: anudeepND-whitelist
 effect.snssdk.com # From: Menghuibanxian-White
+efw884.vip # From: Custom Whitelist
+ehgssdg.cn # From: Custom Whitelist
 eimg.smzdm.com # From: Menghuibanxian-White
+electric-shop.yaoguo.com # From: Custom Whitelist
 engine.tuia.cn # From: Menghuibanxian-White
 eos-marketing.es.xiaojukeji.com # From: Menghuibanxian-White
+eplwgq.cn # From: Custom Whitelist
+ero-labs.website # From: Custom Whitelist
+erwdesf.com # From: Custom Whitelist
 et2-na61-na62.wagbridge.alibaba.tanx.com # From: Menghuibanxian-White
 eum-orange-saas.instana.io # From: Menghuibanxian-White
 ex.m.jd.com # From: Menghuibanxian-White
 example.org # From: Menghuibanxian-White
 exp-new.bdstatic.com # From: Menghuibanxian-White
 exp-new.bdstatic.com.a.bdydns.com # From: Menghuibanxian-White
+ezzgnn.info # From: Custom Whitelist
 f-cpay.snssdk.com # From: Menghuibanxian-White
 f-vali.cp31.ott.cibntv.net # From: Menghuibanxian-White
 f1.g.mi.com # From: Menghuibanxian-White
@@ -507,91 +850,150 @@ f5.market.mi-img.com # From: Menghuibanxian-White
 f5.market.xiaomi.com # From: Menghuibanxian-White
 f6.market.mi-img.com # From: Menghuibanxian-White
 f6.market.xiaomi.com # From: Menghuibanxian-White
+f64410077.com # From: Custom Whitelist
+f64976134.com # From: Custom Whitelist
 f7.market.mi-img.com # From: Menghuibanxian-White
 f7.market.xiaomi.com # From: Menghuibanxian-White
+f7180.e52k6es.top # From: Custom Whitelist
 f8.market.mi-img.com # From: Menghuibanxian-White
 f8.market.xiaomi.com # From: Menghuibanxian-White
 f9.market.mi-img.com # From: Menghuibanxian-White
 f9.market.xiaomi.com # From: Menghuibanxian-White
+f9bf10.xyz # From: Custom Whitelist
 facebook.com # From: Menghuibanxian-White
+fakeurl.virtual.baidu.com # From: Custom Whitelist
 fanyiegg.youdao.com # From: Menghuibanxian-White
 fastcdn.hoyoverse.com # From: Menghuibanxian-White
+fc-ccimage.baidu.com # From: Custom Whitelist
 fc1tn.baidu.com # From: Menghuibanxian-White
+fclick.baidu.com # From: Custom Whitelist
+fclickv4.baidu.com # From: Custom Whitelist
+fdberf.qienze.com # From: Custom Whitelist
 fe2cr.update.msft.com.trafficmanager.net # From: Menghuibanxian-White
+fendou888.top # From: Custom Whitelist
+ffilelogapp.huya.com # From: Custom Whitelist
 fgb0.market.xiaomi.com # From: Menghuibanxian-White
 fgc0.market.xiaomi.com # From: Menghuibanxian-White
+fi11aa198.com # From: Custom Whitelist
 file.market.xiaomi.com # From: Menghuibanxian-White
+fileserverpcdn.cdn.huya.com # From: Custom Whitelist
 find.api.micloud.xiaomi.net # From: Menghuibanxian-White
 findercdn.video.qq.com # From: Menghuibanxian-White
 findermp.video.qq.com # From: Menghuibanxian-White
 firebaseinstallations.googleapis.com # From: Menghuibanxian-White
 firefox.settings.services.mozilla.com # From: Menghuibanxian-White
 firevent.jd.com # From: Menghuibanxian-White
+flysleep.cn # From: Custom Whitelist
+fng3pf.cc # From: Custom Whitelist
+fohbgjv.com # From: Custom Whitelist
+fokm37.cn # From: Custom Whitelist
 fonts.googleapis.com # From: Menghuibanxian-White
-fonts.gstatic.com # From: anudeepND-whitelist
-forums.sonarr.tv # From: anudeepND-whitelist
+fonts.gstatic.com # From: Menghuibanxian-White
+fpoq818.com # From: Custom Whitelist
+fr5uptmx.com # From: Custom Whitelist
 free-store.is.autonavi.com # From: Menghuibanxian-White
+freshmh.top # From: Custom Whitelist
+frontend-perf-service.e.kuaishou.com # From: Custom Whitelist
 frontier100-toutiao-hl.fqnovel.com # From: Menghuibanxian-White
+frqzio.cn # From: Custom Whitelist
 fsr.lenovomm.com # From: Menghuibanxian-White
+fullstack.vip # From: Custom Whitelist
 functional.events.data.microsoft.com # From: Menghuibanxian-White
+fwmdafm.cn # From: Custom Whitelist
+fxqzaoa.cn # From: Custom Whitelist
+fybjmjx-jp.com # From: Custom Whitelist
+fyshvb.cn # From: Custom Whitelist
+g*fzpt.cn # From: Custom Whitelist
 g.alicdn.com.danuoyi.alicdn.com # From: Menghuibanxian-White
-g.live.com # From: anudeepND-whitelist
+g.live.com # From: Menghuibanxian-White
 g.msn.com # From: Menghuibanxian-White
+g105ryj105.cfd # From: Custom Whitelist
 g3.letv.com # From: Menghuibanxian-White
+g6ra.live # From: Custom Whitelist
+g7h69h29cx.com # From: Custom Whitelist
+gad.kugou.com # From: Custom Whitelist
+gahhs029.top # From: Custom Whitelist
 galleryapi.micloud.xiaomi.net # From: Menghuibanxian-White
 game.bilibili.com # From: Menghuibanxian-White
 game.eve.mdt.qq.com # From: Menghuibanxian-White
-gameresource.itop.qq.com # From: Menghuibanxian-White
+gameresource.itop.qq.com # From: Custom Whitelist
 gateway.kugou.com # From: Menghuibanxian-White
 gateway3.kugou.com # From: Menghuibanxian-White
+gbjluf.cn # From: Custom Whitelist
+gc.zgo.at # From: Custom Whitelist
+gclgu.cn # From: Custom Whitelist
 gdfp.gifshow.com # From: Menghuibanxian-White
 gdfpsec.gifshow.com # From: Menghuibanxian-White
 gdlp01.c-wss.com # From: Menghuibanxian-White
 gdown.baidu.com # From: Menghuibanxian-White
+gdxlks.cn # From: Custom Whitelist
 gecko3-lq.zijieapi.com # From: Menghuibanxian-White
+gecko5-lq.zijieapi.com # From: Custom Whitelist
 geller-pa.googleapis.com # From: Menghuibanxian-White
-geo-prod.do.dsp.mp.microsoft.com # From: anudeepND-whitelist
 geo.prod.do.dsp.mp.microsoft.com # From: Menghuibanxian-White
 geo.prod.do.dsp.trafficmanager.net # From: Menghuibanxian-White
-geo3.ggpht.com # From: anudeepND-whitelist
 geover.prod.do.dsp.mp.microsoft.com # From: Menghuibanxian-White
 get.sogou.com # From: Menghuibanxian-White
 getquicker.net # From: Menghuibanxian-White
 getui.com # From: Menghuibanxian-White
-gfwsl.geforce.com # From: anudeepND-whitelist
+gfowedy.cn # From: Custom Whitelist
+gfp63k.com # From: Custom Whitelist
+gfwhs006.top # From: Custom Whitelist
+gg13xx.live # From: Custom Whitelist
+gg86639.vip # From: Custom Whitelist
+gggipl.com # From: Custom Whitelist
+ggic01.miguvideo.com # From: Custom Whitelist
+ggtagcache.cmvideo.cn # From: Custom Whitelist
+ggx01.miguvideo.com # From: Custom Whitelist
+ggx02.miguvideo.com # From: Custom Whitelist
 ghproxy.com # From: Menghuibanxian-White
 ghs.google.com # From: Menghuibanxian-White
 gia.jd.com # From: Menghuibanxian-White
 gias.jd.com # From: Menghuibanxian-White
-giphy.com # From: anudeepND-whitelist
+gilaa038.top # From: Custom Whitelist
 giscus.app # From: Menghuibanxian-White
 gitcode.net # From: Menghuibanxian-White
-github.com # From: anudeepND-whitelist
-github.io # From: anudeepND-whitelist
+github.com # From: Menghuibanxian-White
 glb.cws.prod.dcat.dsp.trafficmanager.net # From: Menghuibanxian-White
 glb.sls.prod.dcat.dsp.trafficmanager.net # From: Menghuibanxian-White
 global-geo-afdthirdparty-unicast.trafficmanager.net # From: Menghuibanxian-White
 global.asimov.events.data.trafficmanager.net # From: Menghuibanxian-White
+gmtrf6.vip # From: Custom Whitelist
+gn2qdf.cc # From: Custom Whitelist
+gn5m0bnwzvkndnoygn.com # From: Custom Whitelist
 go.microsoft.com # From: Menghuibanxian-White
-googleapis.com # From: anudeepND-whitelist
+goblin.hupu.com # From: Custom Whitelist
 gorgon.youdao.com # From: Menghuibanxian-White
+goukaize.top # From: Custom Whitelist
+gqtbt.cn # From: Custom Whitelist
 graph.microsoft.com # From: Menghuibanxian-White
-gravatar.com # From: anudeepND-whitelist
 gravatar.loli.net # From: Menghuibanxian-White
 grayconfig.ai.xiaomi.com # From: Menghuibanxian-White
 greasyfork.org # From: Menghuibanxian-White
+grejskx.com # From: Custom Whitelist
 grpc.biliapi.net # From: Menghuibanxian-White
 gslb-cn.cdo.heytapmobi.com # From: Menghuibanxian-White
-gstatic.com # From: anudeepND-whitelist
+gslbali.ximalaya.com # From: Custom Whitelist
+gslbtx.ximalaya.com # From: Custom Whitelist
 gstaticadssl.l.google.com # From: Menghuibanxian-White
+gsvxs062.top # From: Custom Whitelist
 gtimg.cn # From: Menghuibanxian-White
+gtrztm.cn # From: Custom Whitelist
+guanceyun.autohome.com.cn # From: Custom Whitelist
 guangguang.cloudvideocdn.taobao.com # From: Menghuibanxian-White
 guanjia.10010.com # From: Menghuibanxian-White
 guid.tpns.sh.tencent.com # From: Menghuibanxian-White
 guide-acs.m.taobao.com # From: Menghuibanxian-White
 gw.yunos.com # From: Menghuibanxian-White
+gxrwc.xyz # From: Custom Whitelist
+gzjunbo.net # From: Custom Whitelist
+h2tcbox.baidu.com # From: Custom Whitelist
+h5.ele.me # From: Custom Whitelist
+h5.tv.mi.com # From: Custom Whitelist
+h5log-api-dualstack.mihoyo.com # From: Custom Whitelist
 h5sinaimg.gslb.sinaedge.com # From: Menghuibanxian-White
 haiwaikan.com # From: Menghuibanxian-White
+haohaohao17.xyz # From: Custom Whitelist
 hc.tdm.qq.com # From: Menghuibanxian-White
 hc2.tdm.qq.com # From: Menghuibanxian-White
 hcdnd101.gslb.c.cdnhwc2.com # From: Menghuibanxian-White
@@ -601,38 +1003,63 @@ hcdnw.biliv6.c.cdnhwc2.com # From: Menghuibanxian-White
 hcdnw101.gslb.c.cdnhwc2.com # From: Menghuibanxian-White
 hcfy.ai # From: Menghuibanxian-White
 hd.browser.miui.com # From: Menghuibanxian-White
+hdns.ksyun.com # From: Custom Whitelist
 hector.baidu.com # From: Menghuibanxian-White
 help.aliyun.com # From: Menghuibanxian-White
 help.douban.com # From: Menghuibanxian-White
-help.ui.xboxlive.com # From: anudeepND-whitelist
+henanpenqitu.com # From: Custom Whitelist
+herrrv.com # From: Custom Whitelist
 heytapdownload.com # From: Menghuibanxian-White
+hfbqet.cn # From: Custom Whitelist
+hfisngksng.com # From: Custom Whitelist
+hgkaiarin93.xyz # From: Custom Whitelist
+hgke8.cn # From: Custom Whitelist
+hikaybqcp5tz169.cc # From: Custom Whitelist
 himg.bdimg.com # From: Menghuibanxian-White
 hitokoto.cn # From: Menghuibanxian-White
+hlg102a.cc # From: Custom Whitelist
+hljxmt.com # From: Custom Whitelist
 hls.itunes.apple.com.mwcname.com # From: Menghuibanxian-White
-hls.ted.com # From: anudeepND-whitelist
+holvxfq.com # From: Custom Whitelist
 home.ustc.edu.cn # From: Menghuibanxian-White
+homeborn.cn # From: Custom Whitelist
 hot.browser.miui.com # From: Menghuibanxian-White
+hotjar-analytics.com # From: Custom Whitelist
+hotjar.com # From: Custom Whitelist
 hotsoon.snssdk.com # From: Menghuibanxian-White
+hovcu4.top # From: Custom Whitelist
 hp.sched.legohp-dk.tdnsstic1.cn.cjt.jsq.ho-wan.cn # From: Menghuibanxian-White
+hpa163.nl # From: Custom Whitelist
+hpd.baidu.com # From: Custom Whitelist
+hqh7bp.cc # From: Custom Whitelist
 hreport.meituan.com # From: Menghuibanxian-White
+ht33ii.xyz # From: Custom Whitelist
+htcqlpsfhl4.xyz # From: Custom Whitelist
+hthvip1902.com # From: Custom Whitelist
 htms.heytapmobi.com # From: Menghuibanxian-White
+htpwoc488m.xyz # From: Custom Whitelist
 htrace.wetvinfo.com # From: Menghuibanxian-White
+httpdns.* # From: Custom Whitelist
 hudong.alicdn.com # From: Menghuibanxian-White
+huixuanjiasu.com # From: Custom Whitelist
 hw2.a.kwimgs.com # From: Menghuibanxian-White
+hxkyuwr1040.vip # From: Custom Whitelist
+hydlpcdn.cdn.huya.com # From: Custom Whitelist
 i.ibb.co # From: Menghuibanxian-White
+i.meituan.com # From: Custom Whitelist
 i.mi.com # From: Menghuibanxian-White
 i.niupic.com # From: Menghuibanxian-White
 i.snssdk.com # From: Menghuibanxian-White
 i.w.bilicdn1.com # From: Menghuibanxian-White
-i.ytimg.com # From: anudeepND-whitelist
 i0.letvimg.com # From: Menghuibanxian-White
 i01.appmifile.com.mgslb.com # From: Menghuibanxian-White
 i02.appmifile.com.mgslb.com # From: Menghuibanxian-White
 i03.appmifile.com.mgslb.com # From: Menghuibanxian-White
 i04.appmifile.com.mgslb.com # From: Menghuibanxian-White
 i05.appmifile.com.mgslb.com # From: Menghuibanxian-White
-i1.ytimg.com # From: anudeepND-whitelist
 i3.letvimg.com # From: Menghuibanxian-White
+i3fei057.top # From: Custom Whitelist
+i3oof030.top # From: Custom Whitelist
 i42.lanzoug.com # From: Menghuibanxian-White
 iactivity.cdo.oppomobile.com # From: Menghuibanxian-White
 iadmusicmat.music.126.net # From: Menghuibanxian-White
@@ -642,7 +1069,10 @@ ianshu.gtimg.cn.legodlied1-dk.sched.dcloudstc.com.tdl.cdn.chinaidcnet.com # From
 ib.snssdk.com # From: Menghuibanxian-White
 ibytedapm.com # From: Menghuibanxian-White
 id1.cloud.huawei.com # From: Menghuibanxian-White
+id8wueythn765yhh.rbsxdasha.com # From: Custom Whitelist
 idqqimg.com # From: Menghuibanxian-White
+iep53.vip # From: Custom Whitelist
+ietheivaicai.com # From: Custom Whitelist
 ifind.heytapmobi.com # From: Menghuibanxian-White
 iflow-api.uc.cn # From: Menghuibanxian-White
 iknowpc.bdimg.com # From: Menghuibanxian-White
@@ -654,9 +1084,10 @@ image.uczzd.cn # From: Menghuibanxian-White
 image.winudf.com # From: Menghuibanxian-White
 image.wjx.com # From: Menghuibanxian-White
 image.yingyonghui.com # From: Menghuibanxian-White
+image3.chelaile.net.cn # From: Custom Whitelist
+imageads.codoon.com # From: Custom Whitelist
 images-eds-ssl.xboxlive.com # From: Menghuibanxian-White
 images.uc.cn # From: Menghuibanxian-White
-imagesak.secureserver.net # From: anudeepND-whitelist
 imap.qiye.aliyun.com # From: Menghuibanxian-White
 img-home.csdnimg.cn # From: Menghuibanxian-White
 img-hxy021.didistatic.com # From: Menghuibanxian-White
@@ -667,11 +1098,11 @@ img-ys011.didistatic.com # From: Menghuibanxian-White
 img.alicdn.com.danuoyi.alicdn.com # From: Menghuibanxian-White
 img.jbzj.com # From: Menghuibanxian-White
 img.meituan.net # From: Menghuibanxian-White
+img.newaircloud.com # From: Custom Whitelist
 img.shields.io # From: Menghuibanxian-White
 img.shouji.sogou.com # From: Menghuibanxian-White
 img.ssl.msdk.qq.com # From: Menghuibanxian-White
 img.utdstc.com # From: Menghuibanxian-White
-img.vidible.tv # From: anudeepND-whitelist
 img.yingyonghui.com # From: Menghuibanxian-White
 img.zuoyebang.cc # From: Menghuibanxian-White
 img01.sogoucdn.com # From: Menghuibanxian-White
@@ -696,22 +1127,27 @@ img9.doubanio.com # From: Menghuibanxian-White
 img9.doubanio.com.cdn.dnsv1.com # From: Menghuibanxian-White
 imgcache.qq.com # From: Menghuibanxian-White
 imgcache.qq.com.sched.legopic1-dk.tdnsv6.com.tpic.cdn.chinaidcnet.com # From: Menghuibanxian-White
-imgix.net # From: anudeepND-whitelist
+imgcdn.store # From: Custom Whitelist
 imgs.aixifan.com # From: Menghuibanxian-White
-imgs.xkcd.com # From: anudeepND-whitelist
 imgstat.baidu.com # From: Menghuibanxian-White
 imgx.kwd.inkuai.com # From: Menghuibanxian-White
+inb967.com # From: Custom Whitelist
 individuation-100ime-iat.xf-yun.com # From: Menghuibanxian-White
 inference.location.live.net # From: Menghuibanxian-White
+info.mina.xiaoaisound.com # From: Custom Whitelist
+infwd.xyz # From: Custom Whitelist
 ini.update.360safe.com # From: Menghuibanxian-White
+inlbsid.cn # From: Custom Whitelist
 input.shouji.sogou.com # From: Menghuibanxian-White
 ins-hsvf0lhv.ias.tencent-cloud.net # From: Menghuibanxian-White
 insideruser.microsoft.com # From: Menghuibanxian-White
 insideruser.trafficmanager.net # From: Menghuibanxian-White
-instantmessaging-pa.googleapis.com # From: anudeepND-whitelist
+instv1929.com # From: Custom Whitelist
+instv729.com # From: Custom Whitelist
+instv735.com # From: Custom Whitelist
+instv736.com # From: Custom Whitelist
 intel.com # From: Menghuibanxian-White
 intel11.edgekey.net # From: Menghuibanxian-White
-intercom.io # From: anudeepND-whitelist
 iosapps.itunes.apple.com.download.ks-cdn.com # From: Menghuibanxian-White
 iosapps.itunes.apple.com.m.alikunlun.net # From: Menghuibanxian-White
 iosapps.itunes.g.aaplimg.com # From: Menghuibanxian-White
@@ -732,6 +1168,7 @@ ipv6.l.google.com # From: Menghuibanxian-White
 ipv6.msftconnecttest.com # From: Menghuibanxian-White
 ipv6.music.163.com # From: Menghuibanxian-White
 ipv6test.photo.store.qq.com # From: Menghuibanxian-White
+irs03.com # From: Custom Whitelist
 is.snssdk.com # From: Menghuibanxian-White
 is1-ssl.mzstatic.com # From: Menghuibanxian-White
 is2-ssl.mzstatic.com # From: Menghuibanxian-White
@@ -739,38 +1176,101 @@ is3-ssl.mzstatic.com # From: Menghuibanxian-White
 is4-ssl.mzstatic.com # From: Menghuibanxian-White
 is5-ssl.mzstatic.com # From: Menghuibanxian-White
 isure.stream.gqmusic.qq.com # From: Menghuibanxian-White
+ivjkkq.xyz # From: Custom Whitelist
+iwttbz.xyz # From: Custom Whitelist
 iwx.mail.qq.com # From: Menghuibanxian-White
+iymgmtq.com # From: Custom Whitelist
+izeokt.cn # From: Custom Whitelist
+izicai.xyz # From: Custom Whitelist
 j.gamersky.com # From: Menghuibanxian-White
 j.gamersky.com.cdn20.com # From: Menghuibanxian-White
+j0b07.5usrxbmd.me # From: Custom Whitelist
 j5.dfcfw.com # From: Menghuibanxian-White
 ja2.gamersky.com # From: Menghuibanxian-White
+jajcstf.xyz # From: Custom Whitelist
 japaneseasmr.com # From: Menghuibanxian-White
 jcloud-cdn.com # From: Menghuibanxian-White
+jdjdfwc.cn # From: Custom Whitelist
+jdjdjdc.cn # From: Custom Whitelist
+jdjdodd.cn # From: Custom Whitelist
+jf0qw.cc # From: Custom Whitelist
+jiejie51-*.cc # From: Custom Whitelist
+jiezibook.cn # From: Custom Whitelist
 jihulab.com # From: Menghuibanxian-White
+jingpengpeixun.xyz # From: Custom Whitelist
 jingyan.baidu.com # From: Menghuibanxian-White
+jinpaigz.com # From: Custom Whitelist
+jju5amjdcwgyp3xmla3l9hf97wk.n5sad56f5asd.qqb3c.com # From: Custom Whitelist
 jm0vpt0a.sslego.tcloudscdn.com # From: Menghuibanxian-White
+jmdanjonproxy.xyz # From: Custom Whitelist
+jmnwafa.xyz # From: Custom Whitelist
+jmolpv.cn # From: Custom Whitelist
+jnc7d034.top # From: Custom Whitelist
 jomodns.com # From: Menghuibanxian-White
+joxx.cn # From: Custom Whitelist
 jp-nrt.doh.sb # From: Menghuibanxian-White
 jp.tiarap.org # From: Menghuibanxian-White
-jquery.com # From: anudeepND-whitelist
-jsdelivr.net # From: anudeepND-whitelist
+jr-ad.ctrip.com # From: Custom Whitelist
+js.sentry-cdn.com # From: Custom Whitelist
+jsd.nn.ci # From: Custom Whitelist
+jtezxmpb.xyz # From: Custom Whitelist
+jtlopk.xyz # From: Custom Whitelist
+jtoxume.com # From: Custom Whitelist
+juyu.app # From: Custom Whitelist
+jwzd.com.cn # From: Custom Whitelist
+jxws603.top # From: Custom Whitelist
+jxx2502a.cc # From: Custom Whitelist
+jxx418a.cc # From: Custom Whitelist
+jyno057.top # From: Custom Whitelist
+jz7dn.wulouc7q.me # From: Custom Whitelist
 k.sinaimg.cn # From: Menghuibanxian-White
 k1-biligame.gslb.ksyuncdn.com # From: Menghuibanxian-White
 k4l4dpf6.sched.dma-dk.tdnsdl1.cn # From: Menghuibanxian-White
+k5567.vip # From: Custom Whitelist
+k5iwup.xyz # From: Custom Whitelist
+kad.gotokeep.com # From: Custom Whitelist
+kb1ve043.top # From: Custom Whitelist
+kbuu217.cc # From: Custom Whitelist
+kccai.cn # From: Custom Whitelist
 keep-so.kwd.inkuai.com # From: Menghuibanxian-White
-keystone.mwbsys.com # From: anudeepND-whitelist
+kfkg280.pro # From: Custom Whitelist
+kjkj.site # From: Custom Whitelist
+kksp004.top # From: Custom Whitelist
+kmf87.top # From: Custom Whitelist
 knicks.jd.com # From: Menghuibanxian-White
+kp12a.top # From: Custom Whitelist
+kplayer.keepcdn.com # From: Custom Whitelist
+kpmbl.cn # From: Custom Whitelist
+ks6fq.cc # From: Custom Whitelist
+ksksp88x11.xyz # From: Custom Whitelist
+kskwai.com # From: Custom Whitelist
 kste.ksapisrv.com # From: Menghuibanxian-White
+ktllbb.com # From: Custom Whitelist
+ktx769.cc # From: Custom Whitelist
 kwaicdn.com # From: Menghuibanxian-White
+ky308989.vip # From: Custom Whitelist
+ky6895.com # From: Custom Whitelist
 l-0003.l-msedge.net # From: Menghuibanxian-White
 l-0007.l-msedge.net # From: Menghuibanxian-White
+l.zkpht.com # From: Custom Whitelist
 l5.gslb.ksyuncdn.com # From: Menghuibanxian-White
-lastfm-img2.akamaized.net # From: anudeepND-whitelist
+laifupal.com # From: Custom Whitelist
+lalanuz.cn # From: Custom Whitelist
+landapi-v4.bao265.com # From: Custom Whitelist
 layout.meituan.net # From: Menghuibanxian-White
 lbs.map.qq.com # From: Menghuibanxian-White
+lchzwz.com # From: Custom Whitelist
+leads.api.autohome.com.cn # From: Custom Whitelist
+leads.autohome.com.cn # From: Custom Whitelist
+leeuvl.cn # From: Custom Whitelist
 lens.zhihu.com # From: Menghuibanxian-White
-lf-cdn-tos.bytescm.com # From: Menghuibanxian-White
+leslfm.top # From: Custom Whitelist
+lesson99.com # From: Custom Whitelist
+lf*-data.volccdn.com # From: Custom Whitelist
+lf-cdn-tos.bytescm.com # From: Custom Whitelist
+lf-fe.fqnovelstatic.com # From: Custom Whitelist
 lf-pay-static.bytefae.com # From: Menghuibanxian-White
+lf-reward-video.bytedcdn.com # From: Custom Whitelist
 lf.snssdk.com # From: Menghuibanxian-White
 lf1-cdn-tos.bytegoofy.com # From: Menghuibanxian-White
 lf3-cdn-tos.bdxiguastatic.com # From: Menghuibanxian-White
@@ -783,24 +1283,45 @@ lf6-cdn-tos.bytescm.com # From: Menghuibanxian-White
 lhqt5d90.sched.dma-dk.tdnsdl1.cn # From: Menghuibanxian-White
 lianmengapi.snssdk.com # From: Menghuibanxian-White
 licensing.mp.microsoft.com # From: Menghuibanxian-White
-licensing.xboxlive.com # From: anudeepND-whitelist
+life-service-open.zijieapi.com # From: Custom Whitelist
 limestart.cn # From: Menghuibanxian-White
+linrol.cn # From: Custom Whitelist
 live-df-sched.jcloudimg.com # From: Menghuibanxian-White
 live-redpackrain.ksapisrv.com # From: Menghuibanxian-White
 live-trace.bilibili.com # From: Menghuibanxian-White
-live.com # From: anudeepND-whitelist
 live.kwd.inkuai.com # From: Menghuibanxian-White
 livejs.ksapisrv.com # From: Menghuibanxian-White
 livejs1.gifshow.com # From: Menghuibanxian-White
 livejs1.ksapisrv.com # From: Menghuibanxian-White
-livepassdl.conviva.com # From: anudeepND-whitelist
+liwbei.cn # From: Custom Whitelist
+ljyy846.xyz # From: Custom Whitelist
+lkdgip.xyz # From: Custom Whitelist
+llpstudy.top # From: Custom Whitelist
+llroax.cn # From: Custom Whitelist
 loc.map.baidu.com # From: Menghuibanxian-White
-login.live.com # From: anudeepND-whitelist
-login.microsoftonline.com # From: anudeepND-whitelist
+log*-applog-hl.fqnovel.comimportant # From: Custom Whitelist
+log-sdk.ksapisrv.com # From: Custom Whitelist
+log-upload-v6.mihoyo.com # From: Custom Whitelist
+log.aliyuncs.com # From: Custom Whitelist
+log.moji.com # From: Custom Whitelist
+log.qishui.com # From: Custom Whitelist
+log.xtion.net # From: Custom Whitelist
+logan.sankuai.com # From: Custom Whitelist
+logconf.iflytek.com # From: Custom Whitelist
+logd.api.moji.com # From: Custom Whitelist
+login.live.com # From: Menghuibanxian-White
+login.microsoftonline.com # From: Menghuibanxian-White
 login.msa.msidentity.com # From: Menghuibanxian-White
 logincdn.msauth.net # From: Menghuibanxian-White
 logistics.apps.oppomobile.com # From: Menghuibanxian-White
+logs.chelaile.net.cn # From: Custom Whitelist
+loje863.cc # From: Custom Whitelist
 long.open.weixin.qq.com # From: Menghuibanxian-White
+longlingsc.art # From: Custom Whitelist
+lp.pinduoduo.com # From: Custom Whitelist
+lppfkj.com # From: Custom Whitelist
+lpvbupak.shop # From: Custom Whitelist
+lqsx.net # From: Custom Whitelist
 luna-dict-community.nosdn.127.net # From: Menghuibanxian-White
 lx.meituan.net # From: Menghuibanxian-White
 m.360.cn # From: Menghuibanxian-White
@@ -812,52 +1333,74 @@ m.so.com # From: Menghuibanxian-White
 m.tk.cn # From: Menghuibanxian-White
 m.video.xiaomi.com # From: Menghuibanxian-White
 m.vk.com # From: Menghuibanxian-White
+m.weibo.cn # From: Custom Whitelist
 m0.d.meituan.net # From: Menghuibanxian-White
 m11.360buyimg.com # From: Menghuibanxian-White
 m5.amap.com # From: Menghuibanxian-White
 m5.d.meituan.net # From: Menghuibanxian-White
 m6.d.meituan.net # From: Menghuibanxian-White
+m8g4e.top # From: Custom Whitelist
+magicacid.cn # From: Custom Whitelist
+magwsodo.com # From: Custom Whitelist
 maimemo.com # From: Menghuibanxian-White
 maimemostatus.com # From: Menghuibanxian-White
+mall-dsp2.qinlinkeji.com # From: Custom Whitelist
 mall.bilibili.com # From: Menghuibanxian-White
+mallapi2.qinlinkeji.com # From: Custom Whitelist
 mam.netease.com # From: Menghuibanxian-White
-manifest.googlevideo.com # From: anudeepND-whitelist
+maomixiaoshuo.com # From: Custom Whitelist
 map.baidu.com # From: Menghuibanxian-White
 map.qq.com # From: Menghuibanxian-White
 mapdownload.autonavi.com # From: Menghuibanxian-White
+mapi.bestpay.com.cn # From: Custom Whitelist
 maplocatesdksnapshot.d.meituan.net # From: Menghuibanxian-White
 maplocatesdksnapshot.dreport.meituan.net # From: Menghuibanxian-White
 maponline0.bdimg.com # From: Menghuibanxian-White
 mar.vip.com # From: Menghuibanxian-White
+market.m.taobao.com # From: Custom Whitelist
+marketingplatform.google.com # From: Custom Whitelist
 mars.jd.com # From: Menghuibanxian-White
 mask-api.icloud.com # From: Menghuibanxian-White
 mask.icloud.com # From: Menghuibanxian-White
 mat1.gtimg.com # From: Menghuibanxian-White
 mb.yidianzixun.com # From: Menghuibanxian-White
+mb77.xyz # From: Custom Whitelist
 mbd.baidu.com # From: Menghuibanxian-White
+mbhkgit.com # From: Custom Whitelist
+mcdn.kandian.qq.com # From: Custom Whitelist
+mdc.bestpay.com.cn # From: Custom Whitelist
 me.apple-dns.net # From: Menghuibanxian-White
 med-fe.cdn.bcebos.com # From: Menghuibanxian-White
+medproad.com # From: Custom Whitelist
 meeting.tencent.com # From: Menghuibanxian-White
 mega.nz # From: Menghuibanxian-White
 meituan.net # From: Menghuibanxian-White
 mem.gfx.ms # From: Menghuibanxian-White
 member.bilibili.com # From: Menghuibanxian-White
+memti79268.cc # From: Custom Whitelist
+memto18908.cc # From: Custom Whitelist
 message.bilibili.com # From: Menghuibanxian-White
 met-cronet-reporter.d.meituan.net # From: Menghuibanxian-White
 met-cronet-reporter.dreport.meituan.net # From: Menghuibanxian-White
-meta-db-worker02.pop.ric.plex.bz # From: anudeepND-whitelist
-meta.plex.bz # From: anudeepND-whitelist
-meta.plex.tv # From: anudeepND-whitelist
+meta.pinduoduo.com # From: Custom Whitelist
+metalnews.cn # From: Custom Whitelist
 metaso.cn # From: Menghuibanxian-White
+metok.sys.miui.com # From: Custom Whitelist
 metric-ccc.bcs.cmbchina.com # From: Menghuibanxian-White
 metrics-picture.dreport.meituan.net # From: Menghuibanxian-White
+metrics.apple.com # From: Custom Whitelist
 metrics.icloud.com # From: Menghuibanxian-White
+metrics1.data.hicloud.com # From: Custom Whitelist
+metrics3.data.hicloud.com # From: Custom Whitelist
+metrics4.data.hicloud.com # From: Custom Whitelist
+metrics5.data.hicloud.com # From: Custom Whitelist
 mfn-sched.jcloud-cdn.com # From: Menghuibanxian-White
 mgbsdk.matrix.netease.com # From: Menghuibanxian-White
+mgqhau.top # From: Custom Whitelist
 mi.com # From: Menghuibanxian-White
+miaozhen.com # From: Custom Whitelist
 microsoft.com # From: Menghuibanxian-White
 microsoftapp.net # From: Menghuibanxian-White
-microsoftonline.com # From: anudeepND-whitelist
 mime.baidu.com # From: Menghuibanxian-White
 miniapi.gifshow.com # From: Menghuibanxian-White
 miniapp.gtimg.cn # From: Menghuibanxian-White
@@ -866,84 +1409,128 @@ minor-api.mihoyo.com # From: Menghuibanxian-White
 minorshort.weixin.qq.com # From: Menghuibanxian-White
 mirror.ghproxy.com # From: Menghuibanxian-White
 mirrors.aliyun.com # From: Menghuibanxian-White
+mitao99.cc # From: Custom Whitelist
 miui.com # From: Menghuibanxian-White
 mivideo.cdn.pandora.xiaomi.com # From: Menghuibanxian-White
 miwifi.com # From: Menghuibanxian-White
+mizism07.com # From: Custom Whitelist
+mjnbrt.xyz # From: Custom Whitelist
+mktm.jd.com # From: Custom Whitelist
+mm51-tbsg1542.cc # From: Custom Whitelist
+mm51-tknm1582.vip # From: Custom Whitelist
+mm51-tneb1555.cc # From: Custom Whitelist
+mm51-tvhn1767.vip # From: Custom Whitelist
 mmbiz.qpic.cn # From: Menghuibanxian-White
+mmsp062.top # From: Custom Whitelist
+mngumsf.top # From: Custom Whitelist
+mnogri.xyz # From: Custom Whitelist
+mo.m.taobao.com # From: Custom Whitelist
+moanlengthen.com # From: Custom Whitelist
 mobile-gtalk.l.google.com # From: Menghuibanxian-White
+mobile.app.autohome.com.cn # From: Custom Whitelist
 mobile.appchina.com # From: Menghuibanxian-White
 mobilead.kuwo.cn # From: Menghuibanxian-White
+mobrtb.com # From: Custom Whitelist
 mon.snssdk.com # From: Menghuibanxian-White
 mon.zijieapi.com # From: Menghuibanxian-White
+mon982.vip # From: Custom Whitelist
+monitor.ssp.admobile.top # From: Custom Whitelist
 monsetting.toutiao.com # From: Menghuibanxian-White
+moo39829.net # From: Custom Whitelist
+mos.m.taobao.com # From: Custom Whitelist
 mozilla.cloudfare-dns.com # From: Menghuibanxian-White
 mozilla.cloudflare-dns.com # From: Menghuibanxian-White
 mp.weixin.qq.com # From: Menghuibanxian-White
 mp.weixinbridge.com # From: Menghuibanxian-White
 mps.amap.com # From: Menghuibanxian-White
 mpsapi.amap.com # From: Menghuibanxian-White
+mpsysd.cn # From: Custom Whitelist
+mpyisx.cn # From: Custom Whitelist
+mqwe01w.xyz # From: Custom Whitelist
 mrn.meituan.net # From: Menghuibanxian-White
 ms.bdstatic.com # From: Menghuibanxian-White
 ms.vipstatic.com # From: Menghuibanxian-White
-msftncsi.com # From: anudeepND-whitelist
 mt2.cn # From: Menghuibanxian-White
+mt307.xyz # From: Custom Whitelist
 mtalk.google.com # From: Menghuibanxian-White
 multi-az-incu.gifshow.com # From: Menghuibanxian-White
 musescore.org # From: Menghuibanxian-White
-my.plexapp.com # From: anudeepND-whitelist
+musl.nn.ci # From: Custom Whitelist
+mutalisk.vipfengfei.com # From: Custom Whitelist
+muzy99.top # From: Custom Whitelist
+muzzleexterminator.com # From: Custom Whitelist
+mv71.top # From: Custom Whitelist
+mvads.kugou.com # From: Custom Whitelist
+mvktvm.cn # From: Custom Whitelist
 myip.ipip.net # From: Menghuibanxian-White
 myqcloud.com # From: Menghuibanxian-White
 n.sinaimg.cn # From: Menghuibanxian-White
+n5s5p.top # From: Custom Whitelist
+n669p.top # From: Custom Whitelist
 na61-na62.wagbridge.alibaba.tanx.com # From: Menghuibanxian-White
 na610-na620.acs.m.taobao.com # From: Menghuibanxian-White
 nav-edge.smartscreen.microsoft.com # From: Menghuibanxian-White
 navigis.uc.cn # From: Menghuibanxian-White
+navwmaakbo.com # From: Custom Whitelist
 ncsi.6-c-0003.c-msedge.net # From: Menghuibanxian-White
+ndcpp.com # From: Custom Whitelist
 netapm.music.163.com # From: Menghuibanxian-White
 netease.com # From: Menghuibanxian-White
+networkbench.com # From: Custom Whitelist
 new-service.biliapi.net # From: Menghuibanxian-White
 newclient.map.baidu.com # From: Menghuibanxian-White
 newloc.map.n.shifen.com # From: Menghuibanxian-White
+news.app.autohome.com.cn # From: Custom Whitelist
 news.quark.cn # From: Menghuibanxian-White
 newvector.map.baidu.com # From: Menghuibanxian-White
 nex.163.com # From: Menghuibanxian-White
-nexusrules.officeapps.live.com # From: anudeepND-whitelist
+nexus-websocket-a.intercom.io # From: Custom Whitelist
+nexusrules.officeapps.live.com # From: Menghuibanxian-White
+nferttnm.com # From: Custom Whitelist
+nfgnxkd.top # From: Custom Whitelist
 nginx.34.sec.miui.com # From: Menghuibanxian-White
+ngogkut.cn # From: Custom Whitelist
+nianlia.com # From: Custom Whitelist
 nic.changeip.com # From: Menghuibanxian-White
 nileapi.market.xiaomi.com # From: Menghuibanxian-White
-nine.plugins.plexapp.com # From: anudeepND-whitelist
+nkfkm.cn # From: Custom Whitelist
+nleljf.xyz # From: Custom Whitelist
+nlfmf.cn # From: Custom Whitelist
+nlkmp.com # From: Custom Whitelist
 nm.aicdn.com # From: Menghuibanxian-White
 nmobi.kuwo.cn # From: Menghuibanxian-White
-no-ip.com # From: anudeepND-whitelist
-node.plexapp.com # From: anudeepND-whitelist
+nnhtf.cn # From: Custom Whitelist
+noi107.com # From: Custom Whitelist
 note.youdao.com # From: Menghuibanxian-White
 notice.chaoxing.com # From: Menghuibanxian-White
-notify.xboxlive.com # From: anudeepND-whitelist
-npr-news.streaming.adswizz.com # From: anudeepND-whitelist
-ns1.dropbox.com # From: anudeepND-whitelist
-ns2.dropbox.com # From: anudeepND-whitelist
+nourl.ubs.baidu.com # From: Custom Whitelist
+nouzhu.cn # From: Custom Whitelist
 nspt.bdstatic.com # From: Menghuibanxian-White
-nstool.netease.com # From: Menghuibanxian-White
+nstool.laiqukankan.com # From: Custom Whitelist
+nstool.netease.com # From: Custom Whitelist
 ntp.msn.cn # From: Menghuibanxian-White
 ntp.ntsc.ac.cn # From: Menghuibanxian-White
+nwgfzjdjhm2.xyz # From: Custom Whitelist
+nyaifusheng.com # From: Custom Whitelist
+nyriidul.com # From: Custom Whitelist
 o.alicdn.com.w.cdngslb.com # From: Menghuibanxian-White
 o0.d.meituan.net # From: Menghuibanxian-White
-o1.email.plex.tv # From: anudeepND-whitelist
-o2.sg0.plex.tv # From: anudeepND-whitelist
+o2in8un5qlkj533twx.com # From: Custom Whitelist
 o2o.api.xiaomi.com # From: Menghuibanxian-White
 o3.d.meituan.net # From: Menghuibanxian-White
-ocsp.apple.com # From: anudeepND-whitelist
+oaiqks.top # From: Custom Whitelist
+obj23q.com # From: Custom Whitelist
+oceanengine.com # From: Custom Whitelist
+ocfgaa.xyz # From: Custom Whitelist
 odc-commonafdrk-brs.onedrive.akadns.net # From: Menghuibanxian-White
 odc-commonafdrk-geo.onedrive.akadns.net # From: Menghuibanxian-White
 odc.officeapps.live.com # From: Menghuibanxian-White
 odin.re.taobao.com # From: Menghuibanxian-White
 odin.re.taobao.com.gds.alibabadns.com # From: Menghuibanxian-White
 odoh.cloudflare-dns.com # From: Menghuibanxian-White
-office.com # From: anudeepND-whitelist
-office.net # From: anudeepND-whitelist
-office365.com # From: anudeepND-whitelist
-officeclient.microsoft.com # From: anudeepND-whitelist
+officeclient.microsoft.com # From: Menghuibanxian-White
 officehomeblobs.blob.core.windows.net # From: Menghuibanxian-White
+ofodai.com # From: Custom Whitelist
 oimagea2.ydstatic.com # From: Menghuibanxian-White
 oimagea3.ydstatic.com # From: Menghuibanxian-White
 oimagea4.ydstatic.com # From: Menghuibanxian-White
@@ -958,31 +1545,44 @@ oimageb8.ydstatic.com # From: Menghuibanxian-White
 oimagec2.ydstatic.com # From: Menghuibanxian-White
 oimagec4.ydstatic.com # From: Menghuibanxian-White
 oimagec8.ydstatic.com # From: Menghuibanxian-White
-om.cbsi.com # From: anudeepND-whitelist
+olybvun.cc # From: Custom Whitelist
 omu3uk94.sched.dma-dk.tdnsdl1.cn # From: Menghuibanxian-White
-onedrive.live.com # From: anudeepND-whitelist
 onedriveclucproddm20006.blob.core.windows.net # From: Menghuibanxian-White
 onedscolprdeus06.eastus.cloudapp.azure.com # From: Menghuibanxian-White
 oneocsp.microsoft.com # From: Menghuibanxian-White
 online.emea.adp.com # From: Menghuibanxian-White
+open-iflow.meizu.com # From: Custom Whitelist
+open.douyin.com # From: Custom Whitelist
 open.e.189.cn # From: Menghuibanxian-White
+open.e.kuaishou.* # From: Custom Whitelist
+open.kuaishouzt.com # From: Custom Whitelist
+open.ximalaya.com # From: Custom Whitelist
 openapi-slp.heytapmobi.com # From: Menghuibanxian-White
 openapi.baidu.com # From: Menghuibanxian-White
 opencdn.jomodns.com # From: Menghuibanxian-White
+openinstall.* # From: Custom Whitelist
 openjmacs.m.taobao.com # From: Menghuibanxian-White
+opnobbohq.com # From: Custom Whitelist
 optimus-ads.amap.com # From: Menghuibanxian-White
 oray.com # From: Menghuibanxian-White
 orbit.jd.com # From: Menghuibanxian-White
+os.23v7m9.cc # From: Custom Whitelist
+oschina.net # From: Custom Whitelist
+oss.cdn.adintl.cn # From: Custom Whitelist
 oss.weread.qq.com # From: Menghuibanxian-White
+oss4bpc.moji.com # From: Custom Whitelist
 outlook.com # From: Menghuibanxian-White
-outlook.live.com # From: anudeepND-whitelist
+outlook.live.com # From: Menghuibanxian-White
 outlook.office.com # From: Menghuibanxian-White
-outlook.office365.com # From: anudeepND-whitelist
+outlook.office365.com # From: Menghuibanxian-White
 ow1.res.office365.com # From: Menghuibanxian-White
+oz8xhen.top # From: Custom Whitelist
+p*-ad-sign.byteimg.comimportant # From: Custom Whitelist
 p.data.cctv.com # From: Menghuibanxian-White
 p.kuaidi100.com # From: Menghuibanxian-White
 p.qlogo.cn # From: Menghuibanxian-White
 p0.meituan.net # From: Menghuibanxian-White
+p0nkhy03m.top # From: Custom Whitelist
 p1.a.yximgs.com # From: Menghuibanxian-White
 p1.eckwai.com # From: Menghuibanxian-White
 p1.ecombdimg.com # From: Menghuibanxian-White
@@ -1011,61 +1611,75 @@ p7.ecombdimg.com # From: Menghuibanxian-White
 p8.ecombdimg.com # From: Menghuibanxian-White
 p9.ecombdimg.com # From: Menghuibanxian-White
 page.amap.com # From: Menghuibanxian-White
+pages-fast.m.taobao.com # From: Custom Whitelist
+pages.c-ctrip.com # From: Custom Whitelist
+pages.goofish.com # From: Custom Whitelist
+pages.suanya.com # From: Custom Whitelist
 pages.tmall.com # From: Menghuibanxian-White
 pages.tmall.com.danuoyi.alicdn.com # From: Menghuibanxian-White
 pages.uc.cn # From: Menghuibanxian-White
 pancake-cn.cdn-apple.com.akadns.net # From: Menghuibanxian-White
 pancake.apple.com # From: Menghuibanxian-White
 pancake.cdn-apple.com.akadns.net # From: Menghuibanxian-White
+panweiqiangcc1.cn # From: Custom Whitelist
 passport.baidu.com # From: Menghuibanxian-White
 passport.bilibili.cn # From: Menghuibanxian-White
 passport.n.shifen.com # From: Menghuibanxian-White
 passwordsleakcheck-pa.googleapis.com # From: Menghuibanxian-White
 pay.bilibili.com # From: Menghuibanxian-White
 pay.xunyou.mobi # From: Menghuibanxian-White
+pcdn-tracker.baidu.com # From: Custom Whitelist
 pdc.micloud.xiaomi.net # From: Menghuibanxian-White
+pevdwb.cn # From: Custom Whitelist
 pfga0.market.xiaomi.com # From: Menghuibanxian-White
+pfq4gk.cc # From: Custom Whitelist
 pgdt.gtimg.cn # From: Menghuibanxian-White
+pgszp.cn # From: Custom Whitelist
 pgy-api.oray.com # From: Menghuibanxian-White
 pgyboxapi.sdwan.oray.com # From: Menghuibanxian-White
+pgznt.cn # From: Custom Whitelist
 pic.rmb.bdstatic.com # From: Menghuibanxian-White
+pic1.chelaile.net.cn # From: Custom Whitelist
 pic5.40017.cn # From: Menghuibanxian-White
-pings.conviva.com # From: anudeepND-whitelist
-pitaya.bytedance.com # From: Menghuibanxian-White
+pigeon.alicdn.com # From: Custom Whitelist
+pitaya.bytedance.com # From: Custom Whitelist
 pixso.cn # From: Menghuibanxian-White
-placehold.it # From: anudeepND-whitelist
-placeholdit.imgix.net # From: anudeepND-whitelist
+pkvgbk.com # From: Custom Whitelist
 play.googleapis.com # From: Menghuibanxian-White
 play4.cp21.ott.cibntv.net # From: Menghuibanxian-White
-players.brightcove.net # From: anudeepND-whitelist
+playlustofus.com # From: Custom Whitelist
 plus.l.google.com # From: Menghuibanxian-White
+pluto.sina.cn # From: Custom Whitelist
+pmwgmg.cn # From: Custom Whitelist
+pnsblw.cn # From: Custom Whitelist
 polaris.zijieapi.com # From: Menghuibanxian-White
 pop.qiye.aliyun.com # From: Menghuibanxian-White
 portal.biliapi.net # From: Menghuibanxian-White
 portrait.jomodns.com # From: Menghuibanxian-White
 pp.myapp.com # From: Menghuibanxian-White
-pricelist.skype.com # From: anudeepND-whitelist
+ppdzl.cn # From: Custom Whitelist
+ppqqzkn.com # From: Custom Whitelist
+printstation8.com # From: Custom Whitelist
 prism-report-custom.dreport.meituan.net # From: Menghuibanxian-White
 pro.ip-api.com # From: Menghuibanxian-White
 processor.smartcamera.api.io.mi.com # From: Menghuibanxian-White
 prod.detectportal.prod.cloudops.mozgcp.net # From: Menghuibanxian-White
 prod.roaming1.live.com.akadns.net # From: Menghuibanxian-White
 prod.tyscyrj.qq.com # From: Menghuibanxian-White
-products.office.com # From: anudeepND-whitelist
-proxy.plex.bz # From: anudeepND-whitelist
-proxy.plex.tv # From: anudeepND-whitelist
-proxy02.pop.ord.plex.bz # From: anudeepND-whitelist
+promotion-partner.kuaishou.com # From: Custom Whitelist
+psdyufgyu7b9g.reducedr56t.zdxweixin.com # From: Custom Whitelist
 pss.alicdn.com # From: Menghuibanxian-White
 pstatp.com # From: Menghuibanxian-White
 pt-starimg.didistatic.com # From: Menghuibanxian-White
 pti.store.microsoft.com # From: Menghuibanxian-White
 pub.idqqimg.com # From: Menghuibanxian-White
 pub.taptapdada.com # From: Menghuibanxian-White
+pubend57124.top # From: Custom Whitelist
+pubend81372.vip # From: Custom Whitelist
 public.dns.iij.jp # From: Menghuibanxian-White
 public.gdtimg.com # From: Menghuibanxian-White
 publish-pic-cpu.baidu.com # From: Menghuibanxian-White
-pubsub.plex.bz # From: anudeepND-whitelist
-pubsub.plex.tv # From: anudeepND-whitelist
+pufren.xyz # From: Custom Whitelist
 pull-f5-vs.flive.douyincdn.com.c.bytefcdn.com # From: Menghuibanxian-White
 pull-flv-f11.douyincdn.com.live.qcloudcdn.com # From: Menghuibanxian-White
 pull-flv-f26.douyincdn.com.c.cdnhwc3.com # From: Menghuibanxian-White
@@ -1079,102 +1693,155 @@ pull-flv-l6-hs.pstatp.com # From: Menghuibanxian-White
 pull-hs-f5.flive.douyincdn.com.c.volcfcdndvs.com # From: Menghuibanxian-White
 pull-hs-spe-f5.douyincdn.com.c.volcfcdndvs.com # From: Menghuibanxian-White
 pull-rtmp-l26-cny.douyincdn.com.c.cdnhwc3.com # From: Menghuibanxian-White
-punch.p2p.qq.com # From: Menghuibanxian-White
+punch.p2p.qq.com # From: Custom Whitelist
 purchase.mp.microsoft.com # From: Menghuibanxian-White
 push-rtmp-l11-cny.douyincdn.com.tlivepush.com # From: Menghuibanxian-White
 puui.qpic.cn # From: Menghuibanxian-White
 px.effirst.com # From: Menghuibanxian-White
 q.qlogo.cn # From: Menghuibanxian-White
+q3ob1o82.top # From: Custom Whitelist
+q7u.cn # From: Custom Whitelist
 qappcenterv6.3g.qq.com # From: Menghuibanxian-White
+qbb6.com # From: Custom Whitelist
+qbuc.html5.qq.com # From: Custom Whitelist
 qbwup.imtt.qq.com # From: Menghuibanxian-White
+qchannel*.cn # From: Custom Whitelist
+qckkz.cn # From: Custom Whitelist
+qcsxjvc.cn # From: Custom Whitelist
+qd3bcdn1130.top # From: Custom Whitelist
+qd8kg9.cc # From: Custom Whitelist
+qgphj.cn # From: Custom Whitelist
+qhj0u.com # From: Custom Whitelist
+qiezibenpao.com # From: Custom Whitelist
 qing.wpsdns.com # From: Menghuibanxian-White
+qipmpapi.com # From: Custom Whitelist
+qln8az.com # From: Custom Whitelist
+qlwmt.cn # From: Custom Whitelist
 qm-ab.wtzw.com # From: Menghuibanxian-White
 qm.qq.com # From: Menghuibanxian-White
 qn.yingyonghui.com # From: Menghuibanxian-White
+qnguqmt.top # From: Custom Whitelist
 qnmob3.doubanio.com # From: Menghuibanxian-White
+qpdce1040.com # From: Custom Whitelist
 qq-web-legacy.cdn-go.cn # From: Menghuibanxian-White
 qq.com # From: Menghuibanxian-White
 qqpublic.qpic.cn # From: Menghuibanxian-White
 qqpublic.tc.qq.com # From: Menghuibanxian-White
+qqssvyk368.vip # From: Custom Whitelist
+qt62q.top # From: Custom Whitelist
+qtaeixd.com # From: Custom Whitelist
+qucvedv.cn # From: Custom Whitelist
 query-suggestion.ai.xiaomi.com # From: Menghuibanxian-White
 query.aliyun.com # From: Menghuibanxian-White
 query.hicloud.com # From: Menghuibanxian-White
+qwcghh.kxlddy.com # From: Custom Whitelist
+qygvip410.com # From: Custom Whitelist
+qyw5q.cc # From: Custom Whitelist
+r.release.qq.com # From: Custom Whitelist
 r6.mo.baidu.com # From: Menghuibanxian-White
 rabbit.meitustat.com # From: Menghuibanxian-White
-raw.githubusercontent.com # From: anudeepND-whitelist
+raw.githubusercontent.com # From: Menghuibanxian-White
 rc10-fc07.oray.com # From: Menghuibanxian-White
+rdcyr.cn # From: Custom Whitelist
 rdelivery.qq.com # From: Menghuibanxian-White
+reachmax.cn # From: Custom Whitelist
+reader.meizu.com # From: Custom Whitelist
+reading.snssdk.com # From: Custom Whitelist
+realpr.xyz # From: Custom Whitelist
+recommend_list.baidu.com # From: Custom Whitelist
 reddit.map.fastly.net # From: Menghuibanxian-White
-redirector.googlevideo.com # From: anudeepND-whitelist
+renrenjihua.com # From: Custom Whitelist
+report.*.com # From: Custom Whitelist
 report.idqqimg.com # From: Menghuibanxian-White
 report.meituan.com # From: Menghuibanxian-White
 report.taptapdada.com # From: Menghuibanxian-White
 report.tencentmusic.com # From: Menghuibanxian-White
 reportappgo.189.cn # From: Menghuibanxian-White
-res.cloudinary.com # From: anudeepND-whitelist
 res.mall.10010.cn # From: Menghuibanxian-White
 res.mi.baidu.com # From: Menghuibanxian-White
 res.servicewechat.com # From: Menghuibanxian-White
 res.wx.qq.com # From: Menghuibanxian-White
+resauth.kuwo.cn # From: Custom Whitelist
 resolver.mi.xiaomi.com # From: Menghuibanxian-White
 resstatic.servicewechat.com # From: Menghuibanxian-White
 restapi.amap.com # From: Menghuibanxian-White
 rethinkdns.com # From: Menghuibanxian-White
+rhdej.cn # From: Custom Whitelist
+ricci-liu.com # From: Custom Whitelist
+richmanrank.ksedt.com # From: Custom Whitelist
+rmyhibtadohj.com # From: Custom Whitelist
 roaming.officeapps.live.com # From: Menghuibanxian-White
+rongll.cn # From: Custom Whitelist
 router-app-api.jdcloud.com.jcloudlb.com # From: Menghuibanxian-White
-rtbapi.douyucdn.cn # From: Menghuibanxian-White
+rpclusters.cn-beijing.log.aliyuncs.com # From: Custom Whitelist
+rpdi192.icu # From: Custom Whitelist
+rtawin.daikuan.360.cn # From: Custom Whitelist
+rtbapi.douyucdn.cn # From: Custom Whitelist
+rther.qienze.com # From: Custom Whitelist
+rtlog*-applog-hl.fqnovel.comimportant # From: Custom Whitelist
+rzlp.xyz # From: Custom Whitelist
+rzskdw.cn # From: Custom Whitelist
+s*.bfzycdn.com # From: Custom Whitelist
 s.360.cn # From: Menghuibanxian-White
 s.click.taobao.com # From: Menghuibanxian-White
 s.click.tmall.com # From: Menghuibanxian-White
 s.cn.bing.net # From: Menghuibanxian-White
-s.gateway.messenger.live.com # From: anudeepND-whitelist
-s.marketwatch.com # From: anudeepND-whitelist
 s.mvconf.f.360.cn # From: Menghuibanxian-White
 s.pcmgr.qq.com # From: Menghuibanxian-White
-s.youtube.com # From: anudeepND-whitelist
-s.ytimg.com # From: anudeepND-whitelist
 s0.d.meituan.net # From: Menghuibanxian-White
 s0.meituan.net # From: Menghuibanxian-White
 s1.ssl.qhres2.com # From: Menghuibanxian-White
-s1.wp.com # From: anudeepND-whitelist
 s2-11988.kwimgs.com # From: Menghuibanxian-White
 s2.music.126.net # From: Menghuibanxian-White
 s2.music.126.net.163jiasu.com # From: Menghuibanxian-White
 s2.ssl.qhres2.com # From: Menghuibanxian-White
-s2.youtube.com # From: anudeepND-whitelist
 s2s.config.skype.com # From: Menghuibanxian-White
-s3.amazonaws.com # From: anudeepND-whitelist
 s3.meituan.net # From: Menghuibanxian-White
 s3plus.meituan.net # From: Menghuibanxian-White
 s5.ssl.qhres2.com # From: Menghuibanxian-White
+s5f4aq29.top # From: Custom Whitelist
 s6.music.126.net # From: Menghuibanxian-White
 s6.music.126.net.163jiasu.com # From: Menghuibanxian-White
 s9.cnzz.com # From: Menghuibanxian-White
-sa.symcb.com # From: anudeepND-whitelist
+sa.api.intl.miui.com # From: Custom Whitelist
+sadott.cn # From: Custom Whitelist
 safebrowsing.googleapis.com # From: Menghuibanxian-White
 sal.gslb.topgslb.com # From: Menghuibanxian-White
+salesleads.autohome.com.cn # From: Custom Whitelist
+saoss-oss.xyz # From: Custom Whitelist
 saturn.jd.com # From: Menghuibanxian-White
+sax.sina.com.cn # From: Custom Whitelist
+sblogic.kvod*.com # From: Custom Whitelist
 sc.appvipshop.com # From: Menghuibanxian-White
+scbt.asia # From: Custom Whitelist
 sched.tdnsv8.com # From: Menghuibanxian-White
+scjpqut.cn # From: Custom Whitelist
+scxj1031.xyz # From: Custom Whitelist
+sd-gl.xycdn.com # From: Custom Whitelist
 sd.360.cn # From: Menghuibanxian-White
+sdk*xyajs.data.kuiniuca.com # From: Custom Whitelist
+sdk.51.la # From: Custom Whitelist
+sdk.api.oaid.wocloud.cn # From: Custom Whitelist
 sdk.open.talk.getui.com # From: Menghuibanxian-White
 sdk.open.talk.getui.net # From: Menghuibanxian-White
+sdkapp.uve.weibo.com # From: Custom Whitelist
+sdklog.adintl.cn # From: Custom Whitelist
 sdkserver-drcn.op.dbankcloud.cn # From: Menghuibanxian-White
+sealaly.net # From: Custom Whitelist
 secgw-na61-na62.wagbridge.alibaba.tanx.com # From: Menghuibanxian-White
-secure.avangate.com # From: anudeepND-whitelist
-secure.brightcove.com # From: anudeepND-whitelist
-secure.surveymonkey.com # From: anudeepND-whitelist
+sejqb.com # From: Custom Whitelist
 self-events-data.trafficmanager.net # From: Menghuibanxian-White
 self.events.data.microsoft.com # From: Menghuibanxian-White
 sensors.cloud.tencent.com # From: Menghuibanxian-White
+sentry-ov.*.com # From: Custom Whitelist
 sentry.chaoxing.com # From: Menghuibanxian-White
 sentry.d.xiaomi.net # From: Menghuibanxian-White
 sepfvn6g5a.cloudflare-gateway.com # From: Menghuibanxian-White
-services.sonarr.tv # From: anudeepND-whitelist
 settings-ssl.xboxlive.com # From: Menghuibanxian-White
 settings-win.data.microsoft.com # From: Menghuibanxian-White
 settings.data.microsoft.com # From: Menghuibanxian-White
 seupdate.360safe.com # From: Menghuibanxian-White
+sezkkb.cn # From: Custom Whitelist
 sf0.market.xiaomi.com # From: Menghuibanxian-White
 sf1-ttcdn-tos.pstatp.com # From: Menghuibanxian-White
 sf3-cdn-tos.douyinstatic.com # From: Menghuibanxian-White
@@ -1185,18 +1852,25 @@ sfaf.ksapisrv.com # From: Menghuibanxian-White
 sfepodownload.mediatek.com # From: Menghuibanxian-White
 sfile.chatglm.cn # From: Menghuibanxian-White
 sfsapi.micloud.xiaomi.net # From: Menghuibanxian-White
+sgbh6.com # From: Custom Whitelist
+sgmor.club # From: Custom Whitelist
 shared.youdao.com # From: Menghuibanxian-White
 shavar.prod.mozaws.net # From: Menghuibanxian-White
 shellprod.msocdn.com # From: Menghuibanxian-White
 shence-import.smzdm.com # From: Menghuibanxian-White
 shifen.com # From: Menghuibanxian-White
 shminorshort.weixin.qq.com # From: Menghuibanxian-White
+shop45920354.m.youzan.com # From: Custom Whitelist
 short.weixin.qq.com # From: Menghuibanxian-White
+shuinn7.top # From: Custom Whitelist
 sinaimg.cn # From: Menghuibanxian-White
 singapore.com # From: Menghuibanxian-White
+siomxity.com # From: Custom Whitelist
+site.u-mob.cn # From: Custom Whitelist
 sixinpicnew.ksapisrv.com # From: Menghuibanxian-White
+sjucaie2.top # From: Custom Whitelist
+skej236.icu # From: Custom Whitelist
 skydrive.wns.windows.com # From: Menghuibanxian-White
-skyhook.sonarr.tv # From: anudeepND-whitelist
 skype.com # From: Menghuibanxian-White
 sl-tk.oray.com # From: Menghuibanxian-White
 slapi.oray.net # From: Menghuibanxian-White
@@ -1210,28 +1884,40 @@ smartscreen-prod.microsoft.com # From: Menghuibanxian-White
 smzdm-resource.b0.aicdn.com # From: Menghuibanxian-White
 snssdk.com # From: Menghuibanxian-White
 so.com # From: Menghuibanxian-White
+socket.tw # From: Custom Whitelist
 sofire.baidu.com # From: Menghuibanxian-White
 sofire.bdstatic.com # From: Menghuibanxian-White
 softm.update.360safe.com # From: Menghuibanxian-White
+sogaha.cn # From: Custom Whitelist
 sogou.com # From: Menghuibanxian-White
+somamobi.com # From: Custom Whitelist
 soup.v.qq.com # From: Menghuibanxian-White
 south-ipv6.g0.cn.slb.xiaomi.com # From: Menghuibanxian-White
 sp1.baidu.com # From: Menghuibanxian-White
-spclient.wg.spotify.com # From: anudeepND-whitelist
 speech.ai.xiaomi.com # From: Menghuibanxian-White
 speed.gamecenter.qq.com # From: Menghuibanxian-White
+spfccc.com # From: Custom Whitelist
+sptest.baidu.com # From: Custom Whitelist
+sq1005.cn # From: Custom Whitelist
+sq570z.top # From: Custom Whitelist
+sq572z.top # From: Custom Whitelist
+sq582z.top # From: Custom Whitelist
+sqkt38.cc # From: Custom Whitelist
+sqznt.cn # From: Custom Whitelist
+srlrjvz.com # From: Custom Whitelist
 srv.greenguard.sec.miui.com # From: Menghuibanxian-White
 srv.sec.miui.com # From: Menghuibanxian-White
+ss72269.com # From: Custom Whitelist
 ssl-cdn.static.browser.mi-img.com # From: Menghuibanxian-White
 ssl.dl.g15.letvlb.com # From: Menghuibanxian-White
-ssl.p.jwpcdn.com # From: anudeepND-whitelist
 ssl.ptlogin2.qq.com # From: Menghuibanxian-White
 sslshare.jomodns.com # From: Menghuibanxian-White
 ssltieba.jomodns.com # From: Menghuibanxian-White
+ssp-landing.taptap.cn # From: Custom Whitelist
+ssp.*rtb.com # From: Custom Whitelist
 st.music.163.com # From: Menghuibanxian-White
 st.music.163.com.163jiasu.com # From: Menghuibanxian-White
 stackoverflow.com # From: Menghuibanxian-White
-staging.plex.tv # From: anudeepND-whitelist
 stat.meitudata.com # From: Menghuibanxian-White
 stat.www.gov.cn # From: Menghuibanxian-White
 stat.xtom.com # From: Menghuibanxian-White
@@ -1243,9 +1929,12 @@ static.122.gov.cn # From: Menghuibanxian-White
 static.360buyimg.com # From: Menghuibanxian-White
 static.gamecenter.qq.com # From: Menghuibanxian-White
 static.geetest.com # From: Menghuibanxian-White
+static.hotjar.com # From: Custom Whitelist
 static.meishichina.com # From: Menghuibanxian-White
 static.meishichina.com.w.kunlungr.com # From: Menghuibanxian-White
+static.qblv.qq.com # From: Custom Whitelist
 static.qiyi.com # From: Menghuibanxian-White
+static.squirrelgs.info # From: Custom Whitelist
 static.ws.126.net # From: Menghuibanxian-White
 static.ws.126.net.163jiasu.com # From: Menghuibanxian-White
 static.yingyonghui.com # From: Menghuibanxian-White
@@ -1253,12 +1942,12 @@ static.yximgs.com # From: Menghuibanxian-White
 static.zhihu.com # From: Menghuibanxian-White
 static.zhihu.com.cdn.dnsv1.com # From: Menghuibanxian-White
 statics.123pan.com # From: Menghuibanxian-White
+statics.adanxing.com # From: Custom Whitelist
 statics.woozooo.com # From: Menghuibanxian-White
-staticsns.cdn.bcebos.com # From: Menghuibanxian-White
+staticsns.cdn.bcebos.com # From: Custom Whitelist
 statistic.live.126.net # From: Menghuibanxian-White
 stats-ipv6.jpush.cn # From: Menghuibanxian-White
 stats.jpush.cn # From: Menghuibanxian-White
-status.plex.tv # From: anudeepND-whitelist
 statusapi.micloud.xiaomi.net # From: Menghuibanxian-White
 stc.utdstc.com # From: Menghuibanxian-White
 steamcommunity.com # From: Menghuibanxian-White
@@ -1276,36 +1965,62 @@ store.is.autonavi.com # From: Menghuibanxian-White
 storeedgefd.dsx.mp.microsoft.com # From: Menghuibanxian-White
 storeedgefd.dsx.mp.microsoft.com.edgekey.net.globalredir.akadns.net # From: Menghuibanxian-White
 storeedgefd.xbetservices.akadns.net # From: Menghuibanxian-White
+stun.qqlive.qq.com # From: Custom Whitelist
+stwqhfi.cn # From: Custom Whitelist
 substrate.office.com # From: Menghuibanxian-White
+suiji.red # From: Custom Whitelist
+sujev.cn # From: Custom Whitelist
 suo.im # From: Menghuibanxian-White
 support.microsoft.com # From: Menghuibanxian-White
+sv.adintl.cn # From: Custom Whitelist
+svdpgmt.cn # From: Custom Whitelist
+svip.high*-playback.com # From: Custom Whitelist
 sway.cloud.microsoft # From: Menghuibanxian-White
+swesz.cn # From: Custom Whitelist
 syncthing.net # From: Menghuibanxian-White
+syxiangguang.com # From: Custom Whitelist
+syzbd57.com # From: Custom Whitelist
+syzjsv4.pfmcchina.org # From: Custom Whitelist
 sz-download.weiyun.com # From: Menghuibanxian-White
+sz7yo.com # From: Custom Whitelist
+szebf270.com # From: Custom Whitelist
 szlong.weixin.qq.com # From: Menghuibanxian-White
 t.cn # From: Menghuibanxian-White
-t.co # From: anudeepND-whitelist
-t0.ssl.ak.dynamic.tiles.virtualearth.net # From: anudeepND-whitelist
-t0.ssl.ak.tiles.virtualearth.net # From: anudeepND-whitelist
 t1.58cdn.com.cn # From: Menghuibanxian-White
 t1.g.mi.com # From: Menghuibanxian-White
 t10.baidu.com # From: Menghuibanxian-White
 t11.baidu.com # From: Menghuibanxian-White
 t12.baidu.com # From: Menghuibanxian-White
+t16-fghgdf.com # From: Custom Whitelist
 t2.58cdn.com.cn # From: Menghuibanxian-White
 t2.a.market.xiaomi.com # From: Menghuibanxian-White
 t3.58cdn.com.cn # From: Menghuibanxian-White
+t325omy.vip # From: Custom Whitelist
+t5124f9.vip # From: Custom Whitelist
+t5130pp.vip # From: Custom Whitelist
 t7.baidu.com # From: Menghuibanxian-White
 t8.baidu.com # From: Menghuibanxian-White
 t9.baidu.com # From: Menghuibanxian-White
+t906377.vip # From: Custom Whitelist
+t91215.xyz # From: Custom Whitelist
+t91772.xyz # From: Custom Whitelist
+ta67uh.com # From: Custom Whitelist
 tailscale.com # From: Menghuibanxian-White
+taimei-t336.vip # From: Custom Whitelist
+taimei-t373.vip # From: Custom Whitelist
+taimei-t546.vip # From: Custom Whitelist
 talon-service-prod.ecosec.on.epicgames.com # From: Menghuibanxian-White
 talon-service-prod.ecpsec.on.eicpgames.com # From: Menghuibanxian-White
-tanx.com # From: Menghuibanxian-White
+tam.cdn-go.cn # From: Custom Whitelist
+tanan119.com # From: Custom Whitelist
+tanx.com # From: Custom Whitelist
 taobao.com # From: Menghuibanxian-White
-tawk.to # From: anudeepND-whitelist
+tap-dsp.iem.taptap.cn # From: Custom Whitelist
+tapad-platform.tapimg.com # From: Custom Whitelist
 tb.cn # From: Menghuibanxian-White
 tb.himg.baidu.com # From: Menghuibanxian-White
+tbexpand.alicdn.com # From: Custom Whitelist
+tcahto.cn # From: Custom Whitelist
 tconfig.tapapis.cn # From: Menghuibanxian-White
 tcpconn.tencent.com # From: Menghuibanxian-White
 tcpconn2.tencent.com # From: Menghuibanxian-White
@@ -1313,67 +2028,111 @@ tcpconn3.tencent.com # From: Menghuibanxian-White
 tcpconn4.tencent.com # From: Menghuibanxian-White
 tcpconn5.tencent.com # From: Menghuibanxian-White
 tcpconn6.tencent.com # From: Menghuibanxian-White
+td28ese.pro # From: Custom Whitelist
 tdnsdp1.cn # From: Menghuibanxian-White
 tdnsvod1.cn # From: Menghuibanxian-White
 tdsdk.xdrig.com # From: Menghuibanxian-White
-tedcdn.com # From: anudeepND-whitelist
+te0jgurj900k2otnbd7ayctddi8qr.n5sad56f5asd.qqb3c.com # From: Custom Whitelist
+tec73.com # From: Custom Whitelist
 telegra.ph # From: Menghuibanxian-White
 tencent-cloud.com # From: Menghuibanxian-White
 tencent-cloud.net # From: Menghuibanxian-White
 tencent.com # From: Menghuibanxian-White
+tenekslu.com # From: Custom Whitelist
 tenpay.com # From: Menghuibanxian-White
 termux.net # From: Menghuibanxian-White
+test-dev-mobile-project-sls.cn-shanghai.log.aliyuncs.com # From: Custom Whitelist
 test-sentry.chatglm.cn # From: Menghuibanxian-White
 test.nextdns.io # From: Menghuibanxian-White
 textlink.simba.taobao.com # From: Menghuibanxian-White
+tgd54.xyz # From: Custom Whitelist
 th.pinduoduo.com # From: Menghuibanxian-White
+thacreks.com # From: Custom Whitelist
 theme.heytapimage.com # From: Menghuibanxian-White
-themoviedb.com # From: anudeepND-whitelist
-thetvdb.com # From: anudeepND-whitelist
 thirdqq.qlogo.cn # From: Menghuibanxian-White
 thirdwx.qlogo.cn # From: Menghuibanxian-White
 thm.market.xiaomi.com # From: Menghuibanxian-White
-tianshu.gtimg.cn # From: Menghuibanxian-White
+tiandiren0031.xyz # From: Custom Whitelist
+tianshu.gtimg.cn # From: Custom Whitelist
+tiaoeng9djh.com # From: Custom Whitelist
 tieba.baidu.com # From: Menghuibanxian-White
 time.windows.com # From: Menghuibanxian-White
-tinyurl.com # From: anudeepND-whitelist
+tingyun.com # From: Custom Whitelist
 titan-ws.pinduoduo.com # From: Menghuibanxian-White
-title.auth.xboxlive.com # From: anudeepND-whitelist
-title.mgt.xboxlive.com # From: anudeepND-whitelist
-tmfmazuhttp-wangka.m.qq.com # From: Menghuibanxian-White
+tjkfcnn.cn # From: Custom Whitelist
+tk029.click # From: Custom Whitelist
+tk2.vlion.cn # From: Custom Whitelist
+tmfmazuhttp-wangka.m.qq.com # From: Custom Whitelist
+tnc*-aliec*.zijieapi.com # From: Custom Whitelist
+tnc*-alisc*.zijieapi.com # From: Custom Whitelist
+tnc*-bjlgy.zijieapi.com # From: Custom Whitelist
+tnhjwrs.com # From: Custom Whitelist
+tnhkwrs.com # From: Custom Whitelist
+tnia6.erturaf01hnx.vip # From: Custom Whitelist
+tnqoqnh.icu # From: Custom Whitelist
+to8l.cc # From: Custom Whitelist
+tobidad.* # From: Custom Whitelist
+tongji-resl.meizu.com # From: Custom Whitelist
 tongzhi.95516.com # From: Menghuibanxian-White
 top.baidu.com # From: Menghuibanxian-White
+topdalao.lanzoui.com # From: Custom Whitelist
+toytoy.xyz # From: Custom Whitelist
 tp-pay.snssdk.com # From: Menghuibanxian-White
 tpop-api.twitter.com # From: Menghuibanxian-White
+tquzifwb.com # From: Custom Whitelist
+track-gateway.y5kfpt.com # From: Custom Whitelist
+track.ranfenghd.com # From: Custom Whitelist
 track.uc.cn # From: Menghuibanxian-White
 tracker.ai.xiaomi.com # From: Menghuibanxian-White
 tracker.didistatic.com # From: Menghuibanxian-White
+tracker.yfanads.com # From: Custom Whitelist
+tracking.india.miui.com # From: Custom Whitelist
 trade-acs.m.taobao.com # From: Menghuibanxian-White
 trading.assistant.miui.com # From: Menghuibanxian-White
-traffic.libsyn.com # From: anudeepND-whitelist
 translate.google.com # From: Menghuibanxian-White
+trh64a.top # From: Custom Whitelist
+trk.ezymny.com # From: Custom Whitelist
+trwa116u.xyz # From: Custom Whitelist
 ts.market.mi-img.com # From: Menghuibanxian-White
+ts43x.top # From: Custom Whitelist
+tsearch.snssdk.com # From: Custom Whitelist
+ttok09.com # From: Custom Whitelist
+ttwebview.com # From: Custom Whitelist
 tv.sohu.com # From: Menghuibanxian-White
 tvaxweibo.gslb.sinaedge.com # From: Menghuibanxian-White
-tvdb2.plex.tv # From: anudeepND-whitelist
-tvthemes.plexapp.com # From: anudeepND-whitelist
-twimg.com # From: anudeepND-whitelist
 tx-game.push.yximgs.com # From: Menghuibanxian-White
 tx-incu.gifshow.com # From: Menghuibanxian-White
 tx-p2p.pull.yximgs.com # From: Menghuibanxian-White
 tx2.a.yximgs.com # From: Menghuibanxian-White
 txmov6.a.kwimgs.com # From: Menghuibanxian-White
+txpw6.nhchysvc.me # From: Custom Whitelist
+txx99.top # From: Custom Whitelist
+tyc20202.com # From: Custom Whitelist
+tyromn.com # From: Custom Whitelist
 tysdk.95516.com # From: Menghuibanxian-White
+ua96.com # From: Custom Whitelist
+uaa010.com # From: Custom Whitelist
+ubixioe.com # From: Custom Whitelist
 uc-novel-api.shuqireader.com # From: Menghuibanxian-White
 uc.cn # From: Menghuibanxian-White
+ufengjnskl.com # From: Custom Whitelist
 ufileos.com # From: Menghuibanxian-White
-ug-data.mihoyo.com # From: Menghuibanxian-White
-ui.skype.com # From: anudeepND-whitelist
+ufueng.cn # From: Custom Whitelist
+ug-data.mihoyo.com # From: Custom Whitelist
+ug.qbimg.qq.com # From: Custom Whitelist
+ugfe111.top # From: Custom Whitelist
+ugsdk.cn # From: Custom Whitelist
+ul2tos.cn # From: Custom Whitelist
 umcdn.uc.cn # From: Menghuibanxian-White
+umlzk.xyz # From: Custom Whitelist
+umoney.dxmstatic.com # From: Custom Whitelist
+ung73.top # From: Custom Whitelist
+unilog.wostore.cn # From: Custom Whitelist
 uop.quark.cn # From: Menghuibanxian-White
 up.cm.ksmobile.com # From: Menghuibanxian-White
 up.woozooo.com # From: Menghuibanxian-White
 update.360safe.com # From: Menghuibanxian-White
+update.googleapis.com # From: Custom Whitelist
 update.miui.com # From: Menghuibanxian-White
 update.pan.baidu.com # From: Menghuibanxian-White
 updatem.360safe.com # From: Menghuibanxian-White
@@ -1383,10 +2142,19 @@ upload.qiniu.com # From: Menghuibanxian-White
 upos-sz-mirrorcoso1.bilivideo.com.p7.qcloudcdn.com # From: Menghuibanxian-White
 uranus.jd.com # From: Menghuibanxian-White
 urc.io.mi.com # From: Menghuibanxian-White
+uril6.com # From: Custom Whitelist
 user-api-v2.oray.com # From: Menghuibanxian-White
 user-images.githubusercontent.com # From: Menghuibanxian-White
+utbcd.cn # From: Custom Whitelist
+uuu671.top # From: Custom Whitelist
+uuumml.cn # From: Custom Whitelist
+uvrifrd.cn # From: Custom Whitelist
+uwge590.com # From: Custom Whitelist
 v.miguvideo.com # From: Menghuibanxian-White
+v.opzero.xyz # From: Custom Whitelist
+v.smtcdns.com # From: Custom Whitelist
 v1-vod.kwaicdn.com # From: Menghuibanxian-White
+v1.keepcdn.com # From: Custom Whitelist
 v1.kwaicdn.com # From: Menghuibanxian-White
 v10.events.data.microsoft.com # From: Menghuibanxian-White
 v11.kwaicdn.com # From: Menghuibanxian-White
@@ -1396,31 +2164,57 @@ v2-cty05.kwaicdn.com # From: Menghuibanxian-White
 v2.get.sogou.com # From: Menghuibanxian-White
 v2.oskwai.com # From: Menghuibanxian-White
 v20.events.data.microsoft.com # From: Menghuibanxian-White
+v2q6w.top # From: Custom Whitelist
 v3-ot01.kwaicdn.com # From: Menghuibanxian-White
+v3y7c.top # From: Custom Whitelist
 v5-skvod.kwaicdn.com # From: Menghuibanxian-White
 v5.douyinvod.com.zjgslb.com # From: Menghuibanxian-White
 v6-gdvod.kwaicdn.com # From: Menghuibanxian-White
 v6.kwaicdn.com # From: Menghuibanxian-White
+v6hfl4.top # From: Custom Whitelist
 v6ncsi.msedge.net # From: Menghuibanxian-White
+vcache.kvod*.com # From: Custom Whitelist
 vcs.snssdk.com # From: Menghuibanxian-White
 vd0.market.xiaomi.com # From: Menghuibanxian-White
 vectorsdk.map.qq.com # From: Menghuibanxian-White
+vegslb.com # From: Custom Whitelist
 verify.snssdk.com # From: Menghuibanxian-White
+vewwczvfxqvyac.reducedr56t.zdxweixin.com # From: Custom Whitelist
+vexd8.com # From: Custom Whitelist
+vf.kkys*.com # From: Custom Whitelist
 vfiles.gtimg.cn # From: Menghuibanxian-White
-video-stats.l.google.com # From: anudeepND-whitelist
+vfyrehthw.top # From: Custom Whitelist
 videoclip.apps.coloros.com # From: Menghuibanxian-White
-videos.vidible.tv # From: anudeepND-whitelist
-vidtech.cbsinteractive.com # From: anudeepND-whitelist
+vip-01.top # From: Custom Whitelist
+vip.aqdm349.com # From: Custom Whitelist
 vip.bz.mgtv.com # From: Menghuibanxian-White
+vip.cqtnfs.com # From: Custom Whitelist
+vip.ffzy-online*.com # From: Custom Whitelist
+vip.huijujiavip.com # From: Custom Whitelist
 vipapi.wps.cn # From: Menghuibanxian-White
 visa.cn # From: Menghuibanxian-White
 vm.gtimg.cn.cdn.dnsv1.com.cn # From: Menghuibanxian-White
+vmgikpw.com # From: Custom Whitelist
+vndleo.ruwww.cn # From: Custom Whitelist
 vod-all.qiniu.com.volcgslb.com # From: Menghuibanxian-White
+vod-settings.bytedanceapi.com # From: Custom Whitelist
+voiceads.cn # From: Custom Whitelist
+volces.com # From: Custom Whitelist
+volcsiriusbd.com # From: Custom Whitelist
+vqoorz.cn # From: Custom Whitelist
+vres.dsty*.com # From: Custom Whitelist
+vres.kvod*.com # From: Custom Whitelist
+vres.osehrmy.com # From: Custom Whitelist
 vscode-sync.trafficmanager.net # From: Menghuibanxian-White
 vt.quark.cn # From: Menghuibanxian-White
+vtqccm.com # From: Custom Whitelist
+vxfedm.cn # From: Custom Whitelist
+vzxe2.com # From: Custom Whitelist
 w-api.pp.cn # From: Menghuibanxian-White
 w.meituan.net # From: Menghuibanxian-White
 w1-pro.kskwai.com # From: Menghuibanxian-White
+w1.dxmstatic.com # From: Custom Whitelist
+w7k.cn # From: Custom Whitelist
 waimai-guide.ele.me # From: Menghuibanxian-White
 wapiknow.baidu.com # From: Menghuibanxian-White
 wappass.baidu.com # From: Menghuibanxian-White
@@ -1428,104 +2222,192 @@ wappass.n.shifen.com # From: Menghuibanxian-White
 warhammer40000.com # From: Menghuibanxian-White
 watson.events.data.microsoft.com # From: Menghuibanxian-White
 wb.amap.com # From: Menghuibanxian-White
+wbqrfwlwri6.com # From: Custom Whitelist
+wcald72.xyz # From: Custom Whitelist
+wcnwvz.xyz # From: Custom Whitelist
 weather-analytics-events.apple.com # From: Menghuibanxian-White
 weather-drcn.music.dbankcloud.cn # From: Menghuibanxian-White
 weatheroffer.com # From: Menghuibanxian-White
+web.chelaile.net.cn # From: Custom Whitelist
 web.vip.miui.com # From: Menghuibanxian-White
+webcast*-open-lq.douyin.com # From: Custom Whitelist
 webchatapp.fcbox.com # From: Menghuibanxian-White
 webshell.suite.office.com # From: Menghuibanxian-White
 webstatic.hoyoverse.com # From: Menghuibanxian-White
 webwebfenxi.189.cn # From: Menghuibanxian-White
+wedbccid.top # From: Custom Whitelist
 weibo.cn # From: Menghuibanxian-White
 weibo.com # From: Menghuibanxian-White
 weiboimg.gslb.sinaedge.com # From: Menghuibanxian-White
 weiboimgwx.gslb.sinaedge.com # From: Menghuibanxian-White
+wejianzhan.com # From: Custom Whitelist
 weread.qq.com # From: Menghuibanxian-White
 wetype.weixin.qq.com # From: Menghuibanxian-White
+whoami.akamai.net # From: Custom Whitelist
+whpnd.cn # From: Custom Whitelist
 wht-im.b0.aicdn.com # From: Menghuibanxian-White
 wht.im # From: Menghuibanxian-White
 widget-api.heweather.net # From: Menghuibanxian-White
-widget-cdn.rpxnow.com # From: anudeepND-whitelist
+wifwroi.com # From: Custom Whitelist
 wikipedia.org # From: Menghuibanxian-White
 wildcard-cn.mediatek.com.edgekey.net.globalredir.akadns.net # From: Menghuibanxian-White
-win10.ipv6.microsoft.com # From: anudeepND-whitelist
 win1910.ipv6.microsoft.com # From: Menghuibanxian-White
 win8.ipv6.microsoft.com # From: Menghuibanxian-White
+wiot768.com # From: Custom Whitelist
+wjz-cdn.baidu.com # From: Custom Whitelist
+wkanx.com # From: Custom Whitelist
 wl.jd.com # From: Menghuibanxian-White
+wmlog.meituan.com # From: Custom Whitelist
+wmqtrj.songhan.top # From: Custom Whitelist
 wns.notify.trafficmanager.net # From: Menghuibanxian-White
 wns.qq.com # From: Menghuibanxian-White
 worldwide.sogou.com # From: Menghuibanxian-White
-wp.com # From: anudeepND-whitelist
 wpengapp.com # From: Menghuibanxian-White
 wpk-hb3c-alb.ude.effirst.com # From: Menghuibanxian-White
 wpsdns.com # From: Menghuibanxian-White
 wpsmail.net # From: Menghuibanxian-White
+wqj9j3ys.t32fz3t.com # From: Custom Whitelist
 wqs.jd.com # From: Menghuibanxian-White
 ws-keyboard.shouji.sogou.com # From: Menghuibanxian-White
-ws.audioscrobbler.com # From: anudeepND-whitelist
+wsacjdg.cn # From: Custom Whitelist
 wsglb0.com # From: Menghuibanxian-White
+wsjctpfp.com # From: Custom Whitelist
+wslax2.com # From: Custom Whitelist
 wspeed.qq.com # From: Menghuibanxian-White
 wup.browser.qq.com # From: Menghuibanxian-White
-wup.imtt.qq.com # From: Menghuibanxian-White
+wup.imtt.qq.com # From: Custom Whitelist
+wuuorz.cn # From: Custom Whitelist
+ww25.hotjar-analytics.com # From: Custom Whitelist
 ww4.sinaimg.cn # From: Menghuibanxian-White
+ww6kn9.cc # From: Custom Whitelist
+ww7814.win # From: Custom Whitelist
+ww8p0.top # From: Custom Whitelist
 wwcdn.weixin.qq.com # From: Menghuibanxian-White
 www-www.bing.com.trafficmanager.net # From: Menghuibanxian-White
 www.360.cn # From: Menghuibanxian-White
 www.3dmgame.com # From: Menghuibanxian-White
 www.a.shifen.com # From: Menghuibanxian-White
+www.advlion.com # From: Custom Whitelist
 www.alidns.com # From: Menghuibanxian-White
 www.aqours.today # From: Menghuibanxian-White
 www.asus.com # From: Menghuibanxian-White
+www.axhjfobr.shop # From: Custom Whitelist
+www.bytedance.com # From: Custom Whitelist
+www.cdn-mspjmapiproxy.xyz # From: Custom Whitelist
+www.cnhan.com # From: Custom Whitelist
 www.csdn.net # From: Menghuibanxian-White
-www.dataplicity.com # From: anudeepND-whitelist
 www.drvsky.com # From: Menghuibanxian-White
-www.googleapis.com # From: anudeepND-whitelist
+www.dxmpay.com # From: Custom Whitelist
 www.ip138.com # From: Menghuibanxian-White
 www.laomaotao.net # From: Menghuibanxian-White
 www.maimemo.com # From: Menghuibanxian-White
-www.msftconnecttest.com # From: anudeepND-whitelist
-www.msftncsi.com # From: anudeepND-whitelist
+www.msftconnecttest.com # From: Menghuibanxian-White
+www.msftncsi.com # From: Menghuibanxian-White
 www.mylyg.cn # From: Menghuibanxian-White
-www.no-ip.com # From: anudeepND-whitelist
 www.openrec.tv # From: Menghuibanxian-White
+www.opgame.me # From: Custom Whitelist
 www.paydxm.com # From: Menghuibanxian-White
+www.quark.cn # From: Custom Whitelist
 www.so.com # From: Menghuibanxian-White
 www.tencentwm.com # From: Menghuibanxian-White
 www.tudou.com # From: Menghuibanxian-White
+www.uufbacad.shop # From: Custom Whitelist
 www.v6.gifshow.com # From: Menghuibanxian-White
 www.weiyun.com # From: Menghuibanxian-White
 www.xboxab.com # From: Menghuibanxian-White
-www.youtube-nocookie.com # From: anudeepND-whitelist
 www1.miwifi.com # From: Menghuibanxian-White
 www2-www2.bing.com.trafficmanager.net # From: Menghuibanxian-White
 www2.bing.com # From: Menghuibanxian-White
 wx.qlogo.cn # From: Menghuibanxian-White
+wxcjgg.cn # From: Custom Whitelist
 wximg.wxs.qq.com # From: Menghuibanxian-White
 wzq.gtimg.com # From: Menghuibanxian-White
-xbox.ipv6.microsoft.com # From: anudeepND-whitelist
-xboxexperiencesprod.experimentation.xboxlive.com # From: anudeepND-whitelist
-xflight.xboxlive.com # From: anudeepND-whitelist
+x.eccorp.cc # From: Custom Whitelist
+x1abo.com # From: Custom Whitelist
+xbfxs6.com # From: Custom Whitelist
+xbzb8.cc # From: Custom Whitelist
+xcdn.rltdxt.com # From: Custom Whitelist
+xchina.biz # From: Custom Whitelist
+xdt.usqiryn.cn # From: Custom Whitelist
+xf2jbx.cc # From: Custom Whitelist
+xfzb2.cc # From: Custom Whitelist
 xhslink.com # From: Menghuibanxian-White
+xhsrt47.vip # From: Custom Whitelist
+xhsrt588.vip # From: Custom Whitelist
+xhsrt594.vip # From: Custom Whitelist
+xhszd110.vip # From: Custom Whitelist
+xhszd68.vip # From: Custom Whitelist
+xhw13.top # From: Custom Whitelist
+xiaorongyan.com # From: Custom Whitelist
 xiaoshuo.wtzw.com # From: Menghuibanxian-White
+xiaoyaoge25.top # From: Custom Whitelist
+xicairencs.cn # From: Custom Whitelist
 xinzhi.wenda.so.com # From: Menghuibanxian-White
-xkms.xboxlive.com # From: anudeepND-whitelist
-xsts.auth.xboxlive.com # From: anudeepND-whitelist
+xm849qx.pro # From: Custom Whitelist
+xn--*.*.com # From: Custom Whitelist
+xn--*.com # From: Custom Whitelist
+xtd36.top # From: Custom Whitelist
+xtu224.com # From: Custom Whitelist
 xui.ptlogin2.qq.com # From: Menghuibanxian-White
+xxin97.com # From: Custom Whitelist
+xybnim.xyz # From: Custom Whitelist
+xyftidkux8i2ab.ddcu8sdjmnbhh.dafga*.com # From: Custom Whitelist
 y-105.kuaizhan.com # From: Menghuibanxian-White
+y25287524.vip # From: Custom Whitelist
+y25718211.vip # From: Custom Whitelist
+yaxin.fun # From: Custom Whitelist
+yblar.cn # From: Custom Whitelist
+ycomesc.live # From: Custom Whitelist
 ydlunacommon-cdn.nosdn.127.net # From: Menghuibanxian-White
 ydns.io # From: Menghuibanxian-White
-youtu.be # From: anudeepND-whitelist
-youtube-nocookie.com # From: anudeepND-whitelist
+yelang8.cc # From: Custom Whitelist
+yhmsfc.com # From: Custom Whitelist
+yijuzhan.com # From: Custom Whitelist
+yk11eakg20pm01.com # From: Custom Whitelist
+ymatuhin.ru # From: Custom Whitelist
+ymrz581.com # From: Custom Whitelist
+yotnqh.cn # From: Custom Whitelist
 youtube.com # From: Menghuibanxian-White
 youxi.gamecenter.qq.com # From: Menghuibanxian-White
+youzanyun.com # From: Custom Whitelist
+yq2ns9.cc # From: Custom Whitelist
 ys168.com # From: Menghuibanxian-White
 ysdk.qq.com # From: Menghuibanxian-White
 ysepan.com # From: Menghuibanxian-White
-yt3.ggpht.com # From: anudeepND-whitelist
+yt-twbg1523.vip # From: Custom Whitelist
+ytzjbf.cn # From: Custom Whitelist
+yuanbaobaoxian.com # From: Custom Whitelist
+yuchengxinxia.xyz # From: Custom Whitelist
+yumao.puata.info # From: Custom Whitelist
+yundong1233.com # From: Custom Whitelist
+yunruig.xyz # From: Custom Whitelist
+yuwenxuexizazhi.com # From: Custom Whitelist
 yyb.eve.mdt.qq.com # From: Menghuibanxian-White
+yytphq.cn # From: Custom Whitelist
+z23r562938.iask.in # From: Custom Whitelist
+za1.cfykd.cn # From: Custom Whitelist
+za1.maetg.cn # From: Custom Whitelist
 zb-443-wagbridge.advertisement.alibaba-inc.com # From: Menghuibanxian-White
 zb-443-wagbridge.advertisement.alibaba-inc.com.gds.alibabadns.com # From: Menghuibanxian-White
-zee.cws.conviva.com # From: anudeepND-whitelist
+zb757.cc # From: Custom Whitelist
+zbgptdfwpt7.xyz # From: Custom Whitelist
+zdqa3.com # From: Custom Whitelist
+ze516.xyz # From: Custom Whitelist
+zhangyuyidong.cn # From: Custom Whitelist
 zhidao.baidu.com # From: Menghuibanxian-White
+zhiyan.monitor.tencent-cloud.net # From: Custom Whitelist
 zhuti.xiaomi.com # From: Menghuibanxian-White
 zj1cfweh.cloud.tds1.tapapis.cn # From: Menghuibanxian-White
+zlink.toutiao.com # From: Custom Whitelist
+zmzzfsdfdslk333.com # From: Custom Whitelist
+zox3ue.com # From: Custom Whitelist
+zpoejv.top # From: Custom Whitelist
+zqtnm.cn # From: Custom Whitelist
+zubo1139.com # From: Custom Whitelist
+zucow.com # From: Custom Whitelist
+zxhychina.com # From: Custom Whitelist
+zxid-api.mobileservice.cn # From: Custom Whitelist
+zxmx.net # From: Custom Whitelist
+zxtld.com # From: Custom Whitelist
+zzhc.vnet.cn # From: Custom Whitelist
+zztfly.com # From: Custom Whitelist
