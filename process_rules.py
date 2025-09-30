@@ -8,18 +8,37 @@ import time
 
 # 1. 黑名单规则源 (将被合并和去重)
 block_source_urls = [
-    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_domains.txt",
-    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt",
-    "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
-    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt",
-    "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
-    "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt"
+    #AdRules AdBlock List Plus
+    "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt",
+    #AdBlock DNS Filters1
+    "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt",
+    #AdBlock DNS Filters2
+    "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt",
+    #Ad-set-hosts
+    "https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard",
+    #GOODBYEADS
+    "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt",
+    #10007_auto
+    "https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward",
+    #AWAvenue 秋风广告规则
+    "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+    #Menghuibanxian/AdguardHome
+    "https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Black.txt"
 ]
 
 # 2. 白名单规则源 (用于从黑名单中排除误杀的域名)
 white_source_urls = [
-    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-white-list.txt",
-    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/exception_domains.txt"
+    #GOODBYEADS
+    "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/allow.txt",
+    #冷漠的白名单规则1
+    "https://file-git.trli.club/file-hosts/allow/Domains",
+    #冷漠的白名单规则2
+    "https://github.com/Potterli20/file/releases/download/github-hosts/allow.txt",
+    #冷漠的edge-domains白名单规则
+    "https://github.com/Potterli20/file/releases/download/github-hosts/ad-edge-hosts.txt",
+    #Menghuibanxian/AdguardHome
+    "https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/White.txt"
+
 ]
 
 # 3. 输出文件路径
