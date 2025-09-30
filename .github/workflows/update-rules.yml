@@ -28,11 +28,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run script to process rules
+      - name: Run script to process rules and update README
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: python process_rules.py
 
       - name: Commit and push if changes
-        run: |
+        run: \vert{}
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           
@@ -41,11 +43,11 @@ jobs:
             exit 0
           fi
           
-          # 将生成的黑名单和白名单文件都添加到暂存区
-          git add adguard-rules.txt White.txt
+          # *** 已按要求修改: 添加新的文件名 ***
+          git add Black.txt White.txt README.md
           
-          # 创建更详细的提交信息
-          BLOCK_COUNT=$(grep -v -c '^!' adguard-rules.txt || echo 0)
+          # *** 已按要求修改: 从新的文件名中统计规则数 ***
+          BLOCK_COUNT=$(grep -v -c '^!' Black.txt \vert{}\vert{} echo 0)
           WHITE_COUNT=$(grep -v -c '^!' White.txt || echo 0)
           git commit -m "chore: 自动更新规则列表
           
