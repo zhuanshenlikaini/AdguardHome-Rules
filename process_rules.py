@@ -42,8 +42,8 @@ white_source_urls = [
 ]
 
 # 3. 输出文件路径
-block_output_file = "adguard-rules.txt"
-white_output_file = "adguard-whitelist.txt"
+block_output_file = "Black.txt"
+white_output_file = "White.txt"
 
 # --- 脚本区 ---
 
