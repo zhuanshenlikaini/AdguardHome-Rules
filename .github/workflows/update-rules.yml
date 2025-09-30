@@ -2,6 +2,11 @@
 
 name: Update AdGuard Rules
 
+# ✨ 新增权限设置 ✨
+# 这一部分是解决 403 Forbidden 错误的关键
+permissions:
+  contents: write
+
 on:
   push:
     branches:
@@ -43,10 +48,8 @@ jobs:
             exit 0
           fi
           
-          # *** 关键修复：这里必须使用新的文件名 ***
           git add Black.txt White.txt README.md
           
-          # *** 关键修复：从新的文件名中统计规则数 ***
           BLOCK_COUNT=$(grep -v -c '^!' Black.txt || echo 0)
           WHITE_COUNT=$(grep -v -c '^!' White.txt || echo 0)
           git commit -m "chore: 自动更新规则列表
