@@ -32,6 +32,7 @@ block_source_urls = {
 "10007_auto":"https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward",
 "AWAvenue-Ads-Rule":"https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
 "github520":"https://raw.hellogithub.com/hosts",
+"冷漠的黑名单pro":"https://github.com/Potterli20/file/releases/download/ad-hosts-pro/ad-adguardhome.txt",
 "Menghuibanxian":"https://raw.githubusercontent.com/Menghuibanxian/AdguardHome/refs/heads/main/Black.txt"
 }
 
@@ -53,8 +54,8 @@ custom_block_file = "my-blocklist.txt"
 custom_white_file = "my-whitelist.txt"
 
 # 3. 输出文件路径 (输出到项目的根目录)
-block_output_file = os.path.join(root_dir, "Black.txt")
-white_output_file = os.path.join(root_dir, "White.txt")
+block_output_file = os.path.join(root_dir, "-radical-Black.txt")
+white_output_file = os.path.join(root_dir, "-radical-White.txt")
 readme_file = os.path.join(root_dir, "README.md")
 
 # --- 脚本区 ---

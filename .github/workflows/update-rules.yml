@@ -47,10 +47,10 @@ jobs:
             exit 0
           fi
           
-          git add Black.txt White.txt README.md
+          git add radical-Black.txt radical-White.txt README.md
           
-          BLOCK_COUNT=$(grep -v -c '^!' Black.txt || echo 0)
-          WHITE_COUNT=$(grep -v -c '^!' White.txt || echo 0)
+          BLOCK_COUNT=$(grep -v -c '^!' radical-Black.txt || echo 0)
+          WHITE_COUNT=$(grep -v -c '^!' radical-White.txt || echo 0)
 
           # ✨ 语法修正 ✨
           # 将多行 commit 消息拆分为多个 -m 参数，以避免 YAML 解析错误
